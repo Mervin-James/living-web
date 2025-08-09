@@ -36,7 +36,7 @@ export default function Layout({ title, children, sideMenu, onNew, onImport, onE
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
+      <div className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
       <header className="sticky top-0 z-10 border-b bg-white/80 backdrop-blur">
         <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between">
           <div className="font-semibold tracking-tight">{title}</div>
