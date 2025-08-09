@@ -44,9 +44,9 @@ export default function Layout({ title, children, sideMenu, onNew, onImport, onE
             <details className="relative group">
               <summary className="list-none cursor-pointer select-none px-2 py-1 rounded hover:bg-gray-100">File</summary>
               <div className="absolute right-0 mt-2 w-56 rounded-md border bg-white shadow-lg p-2 space-y-1">
+                <button onClick={onExport} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Download JSON</button>
                 <button onClick={onNew} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">New</button>
                 <button onClick={triggerImport} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Import JSON</button>
-                <button onClick={onExport} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Download JSON</button>
               </div>
             </details>
             <details className="relative group">
@@ -111,3 +111,4 @@ export default function Layout({ title, children, sideMenu, onNew, onImport, onE
     </div>
   )
 }
+

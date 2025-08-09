@@ -4,6 +4,11 @@ import sys
 import json
 from dataclasses import dataclass
 from typing import Optional, Tuple, List, Dict, Any
+from .optimizer_core import (
+    generate_edit_and_merge,
+    select_latest_destination_component,
+    plan_edit_snippet_with_llm,
+)
 
 try:
     # OpenAI client compatible with Morph's API
