@@ -1,0 +1,439 @@
+{
+  "session_id": "20250809_133948_189",
+  "start_time": "2025-08-09T13:39:48.189369",
+  "end_time": null,
+  "interactions": [
+    {
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.583884",
+      "id": 1
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.598093",
+      "id": 2
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.642650",
+      "id": 3
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.685636",
+      "id": 4
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.711377",
+      "id": 5
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.745733",
+      "id": 6
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.811631",
+      "id": 7
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.824350",
+      "id": 8
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.843306",
+      "id": 9
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.871517",
+      "id": 10
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.900514",
+      "id": 11
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:48.930272",
+      "id": 12
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:49.749208",
+      "id": 13
+    },
+    {
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:49.765285",
+      "id": 14
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.090993",
+      "id": 15
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.101672",
+      "id": 16
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.215595",
+      "id": 17
+    },
+    {
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.275825",
+      "id": 18
+    },
+    {
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.285512",
+      "id": 19
+    },
+    {
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:50.512183",
+      "id": 20
+    },
+    {
+      "elementId": "",
+      "elementContent": "New",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.768494",
+      "id": 21
+    },
+    {
+      "elementId": "",
+      "elementContent": "NewImport JSONDownload JSON",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.799290",
+      "id": 22
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:50.818294",
+      "id": 23
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:51.045560",
+      "id": 24
+    },
+    {
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:51.124340",
+      "id": 25
+    },
+    {
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:51.139112",
+      "id": 26
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:51.553376",
+      "id": 27
+    },
+    {
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:51.584598",
+      "id": 28
+    },
+    {
+      "elementId": "",
+      "elementContent": "NewImport JSONDownload JSON",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.231409",
+      "id": 29
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.242668",
+      "id": 30
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.344172",
+      "id": 31
+    },
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.361407",
+      "id": 32
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.535418",
+      "id": 33
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.557675",
+      "id": 34
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.575393",
+      "id": 35
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.605412",
+      "id": 36
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.641568",
+      "id": 37
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:52.665377",
+      "id": 38
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:52.929101",
+      "id": 39
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:53.169054",
+      "id": 40
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:53.188531",
+      "id": 41
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:53.523097",
+      "id": 42
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:53.660099",
+      "id": 43
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:39:53.880018",
+      "id": 44
+    },
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:54.169646",
+      "id": 45
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:54.185878",
+      "id": 46
+    },
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:54.201770",
+      "id": 47
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:39:54.393926",
+      "id": 48
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "session_id": "20250809_134129_738",
+  "start_time": "2025-08-09T13:41:29.738428",
+  "end_time": null,
+  "interactions": [
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:31.957819",
+      "id": 1
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:31.966349",
+      "id": 2
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:31.985524",
+      "id": 3
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:32.040756",
+      "id": 4
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:32.271056",
+      "id": 5
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.113573",
+      "id": 6
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.123584",
+      "id": 7
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.135105",
+      "id": 8
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.192718",
+      "id": 9
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.209676",
+      "id": 10
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.240964",
+      "id": 11
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:41:33.307448",
+      "id": 12
+    }
+  ]
+}

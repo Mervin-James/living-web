@@ -1,0 +1,78 @@
+{
+  "session_id": "20250809_135107_427",
+  "my_id": 513115,
+  "start_time": "2025-08-09T13:51:07.427975",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:08.132746",
+      "id": 1
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:10.033566",
+      "id": 2
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:10.997260",
+      "id": 3
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:11.559441",
+      "id": 4
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:12.726155",
+      "id": 5
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "<div class=\"mx-auto max-w-6xl p-4\"><div class=\"flex items-center justify-between mb-4\"><h1 class=\"text-xl font-semibold\">Your tasks</h1></div><ul class=\"grid gap-3\"><li class=\"border rounded-xl bg-white p-3 flex justify-between gap-3 opacity-70\"><div class=\"flex gap-3 items-start\"><input class=\"mt-1 size-4\" type=\"checkbox\"><div class=\"flex flex-col gap-1\"><div class=\"flex items-center gap-2\"><span class=\"font-semibold\">Add</span></div><div class=\"flex flex-wrap gap-3 text-xs text-gray-600\"></div></div></div><div class=\"flex items-center gap-2\"><button class=\"px-2 py-1 border rounded disabled:opacity-40\" disabled=\"\" data-destination=\"true\">\u2191</button><button class=\"px-2 py-1 border rounded disabled:opacity-40\" disabled=\"\" data-destination=\"true\">\u2193</button><button class=\"px-2 py-1 border rounded\" data-destination=\"true\">Delete</button></div></li></ul></div>",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:13.182509",
+      "id": 6
+    },
+    {
+      "myId": 513115,
+      "elementId": "",
+      "elementContent": "Delete",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:51:16.835523",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "session_id": "20250809_133807_963",
+  "start_time": "2025-08-09T13:38:07.963827",
+  "end_time": null,
+  "interactions": [
+    {
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.388733",
+      "id": 1
+    },
+    {
+      "elementId": "",
+      "elementContent": "super-do",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.405571",
+      "id": 2
+    },
+    {
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.413805",
+      "id": 3
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.431500",
+      "id": 4
+    },
+    {
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "HEADER",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.450759",
+      "id": 5
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.471532",
+      "id": 6
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.506981",
+      "id": 7
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.539824",
+      "id": 8
+    },
+    {
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.571786",
+      "id": 9
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:08.604664",
+      "id": 10
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.676886",
+      "id": 11
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.723328",
+      "id": 12
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.907653",
+      "id": 13
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.916999",
+      "id": 14
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.929047",
+      "id": 15
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:09.941284",
+      "id": 16
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:10.141867",
+      "id": 17
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:10.157435",
+      "id": 18
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:10.239210",
+      "id": 19
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:10.251420",
+      "id": 20
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:38:10.656550",
+      "id": 21
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.368309",
+      "id": 22
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.380851",
+      "id": 23
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.420182",
+      "id": 24
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.464341",
+      "id": 25
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.482727",
+      "id": 26
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.590643",
+      "id": 27
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.619554",
+      "id": 28
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.771908",
+      "id": 29
+    },
+    {
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.793983",
+      "id": 30
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.898556",
+      "id": 31
+    },
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:12.913831",
+      "id": 32
+    },
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:38:13.223008",
+      "id": 33
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:13.948378",
+      "id": 34
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:13.964055",
+      "id": 35
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:38:14.372848",
+      "id": 36
+    }
+  ]
+}

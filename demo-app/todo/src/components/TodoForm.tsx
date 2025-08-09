@@ -54,7 +54,7 @@ export default function TodoForm({ onAdd }: TodoFormProps) {
         <option value="high">High</option>
       </select>
       <input className="border rounded px-3 py-2" placeholder="tags, comma, separated" value={tags} onChange={(e) => setTags(e.target.value)} />
-      <button className="border rounded px-3 py-2 bg-gray-900 text-white hover:bg-black" type="submit">Add</button>
+      <button className="border rounded px-3 py-2 bg-gray-900 text-white hover:bg-black" type="submit" data-destination="true">Add</button>
     </form>
   )
 }

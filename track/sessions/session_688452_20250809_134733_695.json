@@ -1,0 +1,918 @@
+{
+  "session_id": "20250809_134733_695",
+  "my_id": 688452,
+  "start_time": "2025-08-09T13:47:33.695349",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:34.175447",
+      "id": 1
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:34.185221",
+      "id": 2
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:34.195265",
+      "id": 3
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:34.437577",
+      "id": 4
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:36.705353",
+      "id": 5
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:36.724482",
+      "id": 6
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:36.819747",
+      "id": 7
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:38.785212",
+      "id": 8
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.603461",
+      "id": 9
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.635253",
+      "id": 10
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.815332",
+      "id": 11
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.873008",
+      "id": 12
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.930604",
+      "id": 13
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:39.955198",
+      "id": 14
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:40.035266",
+      "id": 15
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:40.105695",
+      "id": 16
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:40.139972",
+      "id": 17
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:40.169624",
+      "id": 18
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:40.242801",
+      "id": 19
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:40.453122",
+      "id": 20
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.037762",
+      "id": 21
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.051293",
+      "id": 22
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.071665",
+      "id": 23
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.697382",
+      "id": 24
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Test\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.745395",
+      "id": 25
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:41.830426",
+      "id": 26
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "\u2193",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.425496",
+      "id": 27
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.436861",
+      "id": 28
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "\u2191",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.455525",
+      "id": 29
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Test\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.471415",
+      "id": 30
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.567397",
+      "id": 31
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Test\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.653091",
+      "id": 32
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.699870",
+      "id": 33
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Test\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.815514",
+      "id": 34
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Delete",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:42.837844",
+      "id": 35
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Delete",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:43.177074",
+      "id": 36
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:43.192176",
+      "id": 37
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:43.820984",
+      "id": 38
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.795625",
+      "id": 39
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.820430",
+      "id": 40
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.843798",
+      "id": 41
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.897783",
+      "id": 42
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.925253",
+      "id": 43
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:44.969348",
+      "id": 44
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:45.189538",
+      "id": 45
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:45.199754",
+      "id": 46
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:45.422142",
+      "id": 47
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:45.715455",
+      "id": 48
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:45.739570",
+      "id": 49
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:45.815615",
+      "id": 50
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:46.138678",
+      "id": 51
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:46.755404",
+      "id": 52
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:46.770379",
+      "id": 53
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "AscDesc",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.105357",
+      "id": 54
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.170121",
+      "id": 55
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.185711",
+      "id": 56
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.261494",
+      "id": 57
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "DirectionAscDesc",
+      "elementType": "LABEL",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.275416",
+      "id": 58
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.285685",
+      "id": 59
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:47.295489",
+      "id": 60
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:47.486947",
+      "id": 61
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:48.161417",
+      "id": 62
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "AscDesc",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:48.179068",
+      "id": 63
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:48.288101",
+      "id": 64
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:48.300707",
+      "id": 65
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:48.494628",
+      "id": 66
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:48.867792",
+      "id": 67
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:48.915534",
+      "id": 68
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.009404",
+      "id": 69
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.027256",
+      "id": 70
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.085321",
+      "id": 71
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.121851",
+      "id": 72
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.268720",
+      "id": 73
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.297130",
+      "id": 74
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.319537",
+      "id": 75
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.340287",
+      "id": 76
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:47:49.638805",
+      "id": 77
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.900496",
+      "id": 78
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.915502",
+      "id": 79
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:49.947669",
+      "id": 80
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.015525",
+      "id": 81
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.035299",
+      "id": 82
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.053119",
+      "id": 83
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.185444",
+      "id": 84
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.251308",
+      "id": 85
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.475192",
+      "id": 86
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.507390",
+      "id": 87
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.915490",
+      "id": 88
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.937158",
+      "id": 89
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:50.965393",
+      "id": 90
+    },
+    {
+      "myId": 688452,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:47:51.195537",
+      "id": 91
+    }
+  ]
+}

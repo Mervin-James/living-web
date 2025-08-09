@@ -1,0 +1,88 @@
+{
+  "session_id": "20250809_140513_365",
+  "my_id": 215914,
+  "start_time": "2025-08-09T14:05:13.366953",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "<head>\n    <script type=\"module\">import { injectIntoGlobalHook } from \"/@react-refresh\";\ninjectIntoGlobalHook(window);\nwindow.$RefreshReg$ = () => {};\nwindow.$RefreshSig$ = () => (type) => type;</script>\n\n    <script type=\"module\" src=\"/@vite/client\"></script>\n\n    <meta charset=\"UTF-8\">\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>super-do</title>\n    <script src=\"/tracker.js\"></script>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.tsx?t=1754772665451\"></script>\n  \n\n</body>",
+      "elementType": "HTML",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.147743,
+      "id": 1
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.138418,
+      "id": 2
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.433734,
+      "id": 3
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 12.688922,
+      "id": 4
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.995853,
+      "id": 5
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "<div class=\"mx-auto max-w-6xl p-4\"><div class=\"flex items-center justify-between mb-4\"><h1 class=\"text-xl font-semibold\">Your tasks</h1></div><ul class=\"grid gap-3\"><li class=\"border rounded-xl bg-white p-3 flex justify-between gap-3 opacity-70\"><div class=\"flex gap-3 items-start\"><input class=\"mt-1 size-4\" type=\"checkbox\"><div class=\"flex flex-col gap-1\"><div class=\"flex items-center gap-2\"><span class=\"font-semibold\">Add</span></div><div class=\"text-gray-600 text-sm\">Test</div><div class=\"flex flex-wrap gap-3 text-xs text-gray-600\"></div></div></div><div class=\"flex items-center gap-2\"><button class=\"px-2 py-1 border rounded disabled:opacity-40\" disabled=\"\" data-destination=\"true\">\u2191</button><button class=\"px-2 py-1 border rounded disabled:opacity-40\" disabled=\"\" data-destination=\"true\">\u2193</button><button class=\"px-2 py-1 border rounded\" data-destination=\"true\">Delete</button></div></li></ul></div>",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.060583,
+      "id": 6
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "Delete",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 15.940372,
+      "id": 7
+    },
+    {
+      "myId": 215914,
+      "elementId": "",
+      "elementContent": "<div class=\"mx-auto max-w-6xl p-4\"><div class=\"flex items-center justify-between mb-4\"><h1 class=\"text-xl font-semibold\">Your tasks</h1></div><div class=\"text-gray-500\">No items</div></div>",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.407217,
+      "id": 8
+    }
+  ]
+}

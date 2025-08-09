@@ -1,0 +1,598 @@
+{
+  "session_id": "20250809_134915_060",
+  "my_id": 738215,
+  "start_time": "2025-08-09T13:49:15.060539",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.284146",
+      "id": 1
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.294204",
+      "id": 2
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.455378",
+      "id": 3
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.470580",
+      "id": 4
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.497830",
+      "id": 5
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.605420",
+      "id": 6
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.620383",
+      "id": 7
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.757432",
+      "id": 8
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.776906",
+      "id": 9
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "H1",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.797666",
+      "id": 10
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.820779",
+      "id": 11
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:15.912558",
+      "id": 12
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.067433",
+      "id": 13
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.075295",
+      "id": 14
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.226599",
+      "id": 15
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.238661",
+      "id": 16
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.355560",
+      "id": 17
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:16.617999",
+      "id": 18
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:16.844114",
+      "id": 19
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:17.101710",
+      "id": 20
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:20.503090",
+      "id": 21
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:20.567464",
+      "id": 22
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:20.589390",
+      "id": 23
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:21.183189",
+      "id": 24
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:21.813056",
+      "id": 25
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.770526",
+      "id": 26
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.888269",
+      "id": 27
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.912641",
+      "id": 28
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.919074",
+      "id": 29
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.955664",
+      "id": 30
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:22.979086",
+      "id": 31
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:23.168275",
+      "id": 32
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:23.272544",
+      "id": 33
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:23.632796",
+      "id": 34
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.355733",
+      "id": 35
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.371089",
+      "id": 36
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.387675",
+      "id": 37
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.517588",
+      "id": 38
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.600727",
+      "id": 39
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.670710",
+      "id": 40
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Win a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.720863",
+      "id": 41
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:24.851029",
+      "id": 42
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:25.141228",
+      "id": 43
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Win a hackathonDue: 2025-08-10",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.455368",
+      "id": 44
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Due: 2025-08-10",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.488456",
+      "id": 45
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.505332",
+      "id": 46
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.518757",
+      "id": 47
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Win a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.752588",
+      "id": 48
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.835198",
+      "id": 49
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.849735",
+      "id": 50
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:25.907339",
+      "id": 51
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "HEADER",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.115142",
+      "id": 52
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.133573",
+      "id": 53
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.225307",
+      "id": 54
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasks",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.265296",
+      "id": 55
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Win a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.285353",
+      "id": 56
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.295360",
+      "id": 57
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:49:26.315394",
+      "id": 58
+    },
+    {
+      "myId": 738215,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonDue: 2025-08-10\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": "2025-08-09T13:49:27.068952",
+      "id": 59
+    }
+  ]
+}

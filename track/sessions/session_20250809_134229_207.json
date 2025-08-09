@@ -1,0 +1,61 @@
+{
+  "session_id": "20250809_134229_207",
+  "start_time": "2025-08-09T13:42:29.207767",
+  "end_time": null,
+  "interactions": [
+    {
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:43:56.907587",
+      "id": 1
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:43:56.918109",
+      "id": 2
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:43:56.928115",
+      "id": 3
+    },
+    {
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:44:42.456033",
+      "id": 4
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:44:42.470258",
+      "id": 5
+    },
+    {
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "mouseover",
+      "serverTimestamp": "2025-08-09T13:44:42.482763",
+      "id": 6
+    }
+  ]
+}

@@ -50,13 +50,13 @@ export default function TodoList({ items, onToggle, onDelete, onMoveUp, onMoveDo
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === 0} onClick={() => onMoveUp(item.id)}>
+            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === 0} onClick={() => onMoveUp(item.id)} data-destination="true">
               ↑
             </button>
-            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === items.length - 1} onClick={() => onMoveDown(item.id)}>
+            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === items.length - 1} onClick={() => onMoveDown(item.id)} data-destination="true">
               ↓
             </button>
-            <button className="px-2 py-1 border rounded" onClick={() => onDelete(item.id)}>Delete</button>
+            <button className="px-2 py-1 border rounded" onClick={() => onDelete(item.id)} data-destination="true">Delete</button>
           </div>
         </li>
       ))}
