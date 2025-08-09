@@ -40,7 +40,7 @@ def main():
 
     interactions = load_interactions_default(repo_root)
 
-    dry_run = os.getenv("DRY_RUN", "1") == "0"
+    dry_run = os.getenv("DRY_RUN", "0") == "1"
     print_edit = os.getenv("PRINT_EDIT", "1") == "1"
 
     agent = OptimizerAgent()
