@@ -7,6 +7,7 @@ import type { AppData, TodoItem, ViewState } from './types'
 import { loadFromLocalStorage, parseDataFromQuery, saveToLocalStorage, serializeDataToQuery, sortTodos } from './utils'
 
 const LS_KEY = 'super-do:v1'
+const LS_VIEW_KEY = 'super-do:view:v1'
 
 function App() {
   const [items, setItems] = useState<TodoItem[]>([])
@@ -21,6 +22,8 @@ function App() {
     }
     const fromLs = loadFromLocalStorage<AppData>(LS_KEY, { version: 1, items: [] })
     setItems(fromLs.items)
+    const fromView = loadFromLocalStorage<ViewState>(LS_VIEW_KEY, view)
+    setView(fromView)
   }, [])
 
   // persist
@@ -28,6 +31,11 @@ function App() {
     const data: AppData = { version: 1, items }
     saveToLocalStorage(LS_KEY, data)
   }, [items])
+
+  // persist view state
+  useEffect(() => {
+    saveToLocalStorage(LS_VIEW_KEY, view)
+  }, [view])
 
   const visibleItems = useMemo(() => {
     let arr = items

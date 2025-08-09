@@ -1,5 +1,4 @@
 import type { TodoItem } from '../types'
-import Element from './Element'
 import { formatDateDisplay } from '../utils'
 
 interface TodoListProps {
@@ -19,9 +18,7 @@ export default function TodoList({ items, onToggle, onDelete, onMoveUp, onMoveDo
       {items.map((item, idx) => (
         <li key={item.id} className={`border rounded-xl bg-white p-3 flex justify-between gap-3 ${item.done ? 'opacity-70' : ''}`}>
           <div className="flex gap-3 items-start">
-            <Element elementId={`todo-toggle-${item.id}`}>
-              <input type="checkbox" className="mt-1 size-4" checked={item.done} onChange={() => onToggle(item.id)} />
-            </Element>
+            <input type="checkbox" className="mt-1 size-4" checked={item.done} onChange={() => onToggle(item.id)} />
             <div className="flex flex-col gap-1">
               <div className="flex items-center gap-2">
                 <span className="font-semibold">{item.title}</span>
@@ -36,11 +33,9 @@ export default function TodoList({ items, onToggle, onDelete, onMoveUp, onMoveDo
                 {item.dueDate && <span>Due: {formatDateDisplay(item.dueDate)}</span>}
                 {item.assignee && <span>@{item.assignee}</span>}
                 {item.link && (
-                  <Element elementId={`todo-link-${item.id}`}>
-                    <a className="underline hover:text-gray-800" href={item.link} target="_blank" rel="noreferrer">
-                      link
-                    </a>
-                  </Element>
+                  <a className="underline hover:text-gray-800" href={item.link} target="_blank" rel="noreferrer">
+                    link
+                  </a>
                 )}
                 {item.tags.length > 0 && (
                   <span className="flex gap-1 flex-wrap">
@@ -55,19 +50,13 @@ export default function TodoList({ items, onToggle, onDelete, onMoveUp, onMoveDo
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <Element elementId={`todo-up-${item.id}`}>
-              <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === 0} onClick={() => onMoveUp(item.id)}>
-                ↑
-              </button>
-            </Element>
-            <Element elementId={`todo-down-${item.id}`}>
-              <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === items.length - 1} onClick={() => onMoveDown(item.id)}>
-                ↓
-              </button>
-            </Element>
-            <Element elementId={`todo-delete-${item.id}`}>
-              <button className="px-2 py-1 border rounded" onClick={() => onDelete(item.id)}>Delete</button>
-            </Element>
+            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === 0} onClick={() => onMoveUp(item.id)}>
+              ↑
+            </button>
+            <button className="px-2 py-1 border rounded disabled:opacity-40" disabled={idx === items.length - 1} onClick={() => onMoveDown(item.id)}>
+              ↓
+            </button>
+            <button className="px-2 py-1 border rounded" onClick={() => onDelete(item.id)}>Delete</button>
           </div>
         </li>
       ))}

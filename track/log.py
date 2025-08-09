@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
@@ -10,9 +11,10 @@ from contextlib import asynccontextmanager
 
 class InteractionData(BaseModel):
     elementId: Optional[str] = None
-    elementContent: str
-    timestamp: int
+    elementContent: Optional[str] = None
+    elementType: Optional[str] = None
     interactionType: str
+    isDestination: Optional[str] = None
 
 class InteractionLogger:
     def __init__(self, file_path: str = "interactions.json"):
@@ -38,7 +40,8 @@ class InteractionLogger:
                 record = {
                     "elementId": interaction.elementId,
                     "elementContent": interaction.elementContent,
-                    "timestamp": interaction.timestamp,
+                    "elementType": interaction.elementType,
+                    "isDestination": interaction.isDestination,
                     "interactionType": interaction.interactionType,
                     "serverTimestamp": datetime.now().isoformat(),
                     "id": len(current_data) + 1
@@ -82,6 +85,15 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
+# Add CORS middleware to allow all origins
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.post("/api/analytics")
 async def log_interaction(interaction: InteractionData):
     """Log a user interaction to the JSON file."""
@@ -94,6 +106,28 @@ async def get_interactions():
     interactions = await logger.get_all_interactions()
     return {"status": "success", "count": len(interactions), "data": interactions}
 
+@app.post("/api/analytics/start")
+async def start_tracking():
+    """Start a new tracking session."""
+    session_data = {
+        "event": "session_start",
+        "timestamp": datetime.now().isoformat()
+    }
+    # Log session start as a special interaction
+    print(f"Tracking session started at {session_data['timestamp']}")
+    return {"status": "success", "message": "Tracking started", "data": session_data}
+
+@app.post("/api/analytics/stop")
+async def stop_tracking():
+    """Stop the current tracking session."""
+    session_data = {
+        "event": "session_stop",
+        "timestamp": datetime.now().isoformat()
+    }
+    # Log session stop
+    print(f"Tracking session stopped at {session_data['timestamp']}")
+    return {"status": "success", "message": "Tracking stopped", "data": session_data}
+
 @app.get("/api/analytics/stats")
 async def get_interaction_stats():
     """Get statistics about logged interactions."""
@@ -104,11 +138,13 @@ async def get_interaction_stats():
             "totalInteractions": 0,
             "clickCount": 0,
             "hoverCount": 0,
+            "scrollCount": 0,
             "uniqueElements": 0
         }}
     
     click_count = sum(1 for i in interactions if i.get("interactionType") == "click")
-    hover_count = sum(1 for i in interactions if i.get("interactionType") == "hover")
+    hover_count = sum(1 for i in interactions if i.get("interactionType") == "mouseover")
+    scroll_count = sum(1 for i in interactions if i.get("interactionType") == "scroll")
     unique_elements = len(set(i.get("elementId", "unknown") for i in interactions if i.get("elementId")))
     
     return {
@@ -117,6 +153,7 @@ async def get_interaction_stats():
             "totalInteractions": len(interactions),
             "clickCount": click_count,
             "hoverCount": hover_count,
+            "scrollCount": scroll_count,
             "uniqueElements": unique_elements,
             "lastInteraction": interactions[-1] if interactions else None
         }

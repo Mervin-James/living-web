@@ -1,10 +1,38 @@
 [
   {
-    "elementId": "123",
-    "elementContent": "Hello!",
-    "timestamp": 0,
-    "interactionType": "hover",
-    "serverTimestamp": "2025-08-09T12:35:36.239986",
+    "elementId": "",
+    "elementContent": "New",
+    "elementType": "BUTTON",
+    "isDestination": "true",
+    "interactionType": "mouseover",
+    "serverTimestamp": "2025-08-09T13:29:44.266506",
     "id": 1
+  },
+  {
+    "elementId": "",
+    "elementContent": "Import JSON",
+    "elementType": "BUTTON",
+    "isDestination": "true",
+    "interactionType": "mouseover",
+    "serverTimestamp": "2025-08-09T13:29:44.283249",
+    "id": 2
+  },
+  {
+    "elementId": "",
+    "elementContent": "Download JSON",
+    "elementType": "BUTTON",
+    "isDestination": "true",
+    "interactionType": "mouseover",
+    "serverTimestamp": "2025-08-09T13:29:44.535619",
+    "id": 3
+  },
+  {
+    "elementId": "",
+    "elementContent": "Download JSON",
+    "elementType": "BUTTON",
+    "isDestination": "true",
+    "interactionType": "click",
+    "serverTimestamp": "2025-08-09T13:29:44.871975",
+    "id": 4
   }
 ]
