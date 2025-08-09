@@ -174,9 +174,11 @@ def select_latest_destination_component(interactions_or_analysis: Any, initial_c
 def derive_edit_plan(tsx: str, component_name: str) -> PromotionPlan:
     layout_bounds = find_layout_return_jsx_bounds(tsx)
     if not layout_bounds:
+        # If targeting semantic containers like 'main' or 'aside', still allow reordering by context
         return PromotionPlan(component_name, None, None, None, None, None)
     jsx_start, jsx_end = layout_bounds
     layout_jsx = tsx[jsx_start:jsx_end]
+    # Support HTML5 container tags as well as React components
     block_bounds_local = find_tag_block(layout_jsx, component_name)
     if not block_bounds_local:
         return PromotionPlan(component_name, None, None, None, None, None)
