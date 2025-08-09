@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 import asyncio
 from contextlib import asynccontextmanager
+from analysis import analyze_and_write_text
 
 class InteractionData(BaseModel):
     elementId: Optional[str] = None
@@ -70,6 +71,7 @@ class InteractionLogger:
         # Update session with end time
         session_data = json.loads(session_file.read_text())
         session_data["end_time"] = datetime.now().isoformat()
+        session_data["file_name"] = session_file.name
         
         session_file.write_text(json.dumps(session_data, indent=2))
         
@@ -161,10 +163,11 @@ class InteractionLogger:
         """Get a specific session by ID"""
         async with self.lock:
             try:
-                session_file = self.sessions_dir / f"session_{session_id}.json"
-                if not session_file.exists():
+                # Sessions are named as session_{my_id}_{session_id}.json
+                matches = list(self.sessions_dir.glob(f"session_*_{session_id}.json"))
+                if not matches:
                     raise HTTPException(status_code=404, detail=f"Session {session_id} not found")
-                
+                session_file = matches[0]
                 return json.loads(session_file.read_text())
             except HTTPException:
                 raise
@@ -173,6 +176,7 @@ class InteractionLogger:
 
 # Initialize logger
 logger = InteractionLogger()
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -230,6 +234,13 @@ async def stop_tracking(request: SessionRequest):
     session_data = logger.stop_session(request.myId)
     if session_data:
         print(f"Tracking session {session_data['session_id']} for user {request.myId} stopped at {session_data['end_time']}")
+        # Trigger background analysis in background if file known
+        try:
+            if session_data.get("file_name"):
+                session_file = logger.sessions_dir / session_data["file_name"]
+                asyncio.create_task(analyze_and_write_text(session_file))
+        except Exception as e:
+            print(f"Failed to start background analysis: {e}")
         return {"status": "success", "message": "Tracking stopped", "data": session_data}
     else:
         return {"status": "error", "message": f"No active tracking session for user {request.myId}"}
@@ -264,6 +275,8 @@ async def get_interaction_stats(my_id: int):
             "lastInteraction": interactions[-1] if interactions else None
         }
     }
+
+# Removed analysis API: analysis is triggered automatically on session stop and saved to a .analysis.txt file.
 
 if __name__ == "__main__":
     import uvicorn

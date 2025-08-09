@@ -1,0 +1,179 @@
+{
+  "session_id": "20250809_151925_216",
+  "my_id": 268102,
+  "start_time": "2025-08-09T15:19:25.217730",
+  "end_time": "2025-08-09T15:19:53.242741",
+  "interactions": [
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 1.101804,
+      "id": 1
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.419167,
+      "id": 2
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.125172,
+      "id": 3
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "High",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.862846,
+      "id": 4
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 9.321878,
+      "id": 5
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.109669,
+      "id": 6
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.226614,
+      "id": 7
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Low",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.827254,
+      "id": 8
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 16.299092,
+      "id": 9
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.199371,
+      "id": 10
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.718348,
+      "id": 11
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.158928,
+      "id": 12
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.244739,
+      "id": 13
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.903783,
+      "id": 14
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 23.690878,
+      "id": 15
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.461125,
+      "id": 16
+    },
+    {
+      "myId": 268102,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 26.077164,
+      "id": 17
+    }
+  ],
+  "file_name": "session_268102_20250809_151925_216.json"
+}

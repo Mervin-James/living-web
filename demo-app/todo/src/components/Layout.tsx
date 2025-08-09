@@ -1,20 +1,25 @@
-import type { ReactNode } from 'react'
 import { useRef } from 'react'
-import type { AppData, ViewState } from '../types'
+import TodoForm from './TodoForm'
+import TodoList from './TodoList'
+import type { AppData, ViewState, TodoItem } from '../types'
 
 interface LayoutProps {
   title: string
-  children: ReactNode
-  sideMenu: ReactNode
+  items: TodoItem[]
   onNew: () => void
   onImport: (data: AppData) => void
   onExport: () => void
   onShare: () => void
   view: ViewState
   onChangeView: (delta: Partial<ViewState>) => void
+  onAdd: (item: TodoItem) => void
+  onToggle: (id: string) => void
+  onDelete: (id: string) => void
+  onMoveUp: (id: string) => void
+  onMoveDown: (id: string) => void
 }
 
-export default function Layout({ title, children, sideMenu, onNew, onImport, onExport, onShare, view, onChangeView }: LayoutProps) {
+export default function Layout({ title, items, onNew, onImport, onExport, onShare, view, onChangeView, onAdd, onToggle, onDelete, onMoveUp, onMoveDown }: LayoutProps) {
   const fileRef = useRef<HTMLInputElement | null>(null)
 
   function triggerImport() {
@@ -102,10 +107,17 @@ export default function Layout({ title, children, sideMenu, onNew, onImport, onE
       </header>
       <div className="flex-1 grid grid-cols-[300px_1fr] min-h-0">
         <aside className="border-r bg-white overflow-y-auto">
-          <div className="p-4 space-y-4">{sideMenu}</div>
+          <div className="p-4 space-y-4">
+            <TodoForm onAdd={onAdd} />
+          </div>
         </aside>
         <main className="overflow-y-auto">
-          <div className="mx-auto max-w-6xl p-4">{children}</div>
+          <div className="mx-auto max-w-6xl p-4">
+            <div className="mb-4 flex items-center justify-between">
+              <h1 className="text-xl font-semibold">Your tasks</h1>
+            </div>
+            <TodoList items={items} onToggle={onToggle} onDelete={onDelete} onMoveUp={onMoveUp} onMoveDown={onMoveDown} />
+          </div>
         </main>
       </div>
     </div>

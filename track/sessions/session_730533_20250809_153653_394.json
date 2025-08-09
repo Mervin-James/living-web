@@ -1,0 +1,219 @@
+{
+  "session_id": "20250809_153653_394",
+  "my_id": 730533,
+  "start_time": "2025-08-09T15:36:53.394096",
+  "end_time": "2025-08-09T15:37:23.311993",
+  "interactions": [
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.4231,
+      "id": 1
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.593356,
+      "id": 2
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.552798,
+      "id": 3
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.194554,
+      "id": 4
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.555556,
+      "id": 5
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.940038,
+      "id": 6
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.431105,
+      "id": 7
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.87997,
+      "id": 8
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.299739,
+      "id": 9
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.596648,
+      "id": 10
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.983464,
+      "id": 11
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.214383,
+      "id": 12
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.675582,
+      "id": 13
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.848138,
+      "id": 14
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.318177,
+      "id": 15
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.545408,
+      "id": 16
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.073931,
+      "id": 17
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.284387,
+      "id": 18
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.886962,
+      "id": 19
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "Import JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 23.901033,
+      "id": 20
+    },
+    {
+      "myId": 730533,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 28.02991,
+      "id": 21
+    }
+  ],
+  "file_name": "session_730533_20250809_153653_394.json"
+}

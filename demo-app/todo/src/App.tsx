@@ -1,8 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import './index.css'
 import Layout from './components/Layout'
-import TodoForm from './components/TodoForm'
-import TodoList from './components/TodoList'
 import type { AppData, TodoItem, ViewState } from './types'
 import { loadFromLocalStorage, parseDataFromQuery, saveToLocalStorage, serializeDataToQuery, sortTodos } from './utils'
 
@@ -108,19 +106,19 @@ function App() {
   return (
     <Layout
       title="super-do"
-      sideMenu={<TodoForm onAdd={handleAdd} />}
+      items={visibleItems}
       onNew={handleNew}
       onImport={handleImport}
       onExport={handleExport}
       onShare={handleShare}
       view={view}
       onChangeView={(delta) => setView((v) => ({ ...v, ...delta }))}
-    >
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-xl font-semibold">Your tasks</h1>
-      </div>
-      <TodoList items={visibleItems} onToggle={handleToggle} onDelete={handleDelete} onMoveUp={handleMoveUp} onMoveDown={handleMoveDown} />
-    </Layout>
+      onAdd={handleAdd}
+      onToggle={handleToggle}
+      onDelete={handleDelete}
+      onMoveUp={handleMoveUp}
+      onMoveDown={handleMoveDown}
+    />
   )
 }
 

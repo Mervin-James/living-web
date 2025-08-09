@@ -1,0 +1,28 @@
+{
+  "session_id": "20250809_143112_773",
+  "my_id": 405163,
+  "start_time": "2025-08-09T14:31:12.773763",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 405163,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.483149,
+      "id": 1
+    },
+    {
+      "myId": 405163,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 10.723146,
+      "id": 2
+    }
+  ]
+}

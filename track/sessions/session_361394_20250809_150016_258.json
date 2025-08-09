@@ -1,0 +1,178 @@
+{
+  "session_id": "20250809_150016_258",
+  "my_id": 361394,
+  "start_time": "2025-08-09T15:00:16.258329",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.121238,
+      "id": 1
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.428186,
+      "id": 2
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "High",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.513064,
+      "id": 3
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "ASIDE",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.000696,
+      "id": 4
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 15.487334,
+      "id": 5
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.645367,
+      "id": 6
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.187324,
+      "id": 7
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.664468,
+      "id": 8
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.354732,
+      "id": 9
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.719513,
+      "id": 10
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.511792,
+      "id": 11
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.494705,
+      "id": 12
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 22.254432,
+      "id": 13
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.595102,
+      "id": 14
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Your tasksTesthigh\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.125014,
+      "id": 15
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.991253,
+      "id": 16
+    },
+    {
+      "myId": 361394,
+      "elementId": "",
+      "elementContent": "Your tasksTesthigh\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 26.037296,
+      "id": 17
+    }
+  ]
+}

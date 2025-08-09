@@ -1,0 +1,49 @@
+{
+  "session_id": "20250809_150846_348",
+  "my_id": 256063,
+  "start_time": "2025-08-09T15:08:46.348522",
+  "end_time": "2025-08-09T15:08:53.515855",
+  "interactions": [
+    {
+      "myId": 256063,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.732757,
+      "id": 1
+    },
+    {
+      "myId": 256063,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.305673,
+      "id": 2
+    },
+    {
+      "myId": 256063,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 3.77588,
+      "id": 3
+    },
+    {
+      "myId": 256063,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.793602,
+      "id": 4
+    }
+  ],
+  "file_name": "session_256063_20250809_150846_348.json"
+}

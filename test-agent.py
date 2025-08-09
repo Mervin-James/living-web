@@ -9,26 +9,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def load_interactions_default(repo_root: Path):
-    interactions_path = repo_root / "track" / "interactions.json"
+    interactions_path = repo_root / "track" / "report.txt"
     if interactions_path.exists():
         try:
-            data = json.loads(interactions_path.read_text(encoding="utf-8"))
-            if isinstance(data, list):
-                return data
+            report = interactions_path.read_text(encoding="utf-8")
         except Exception:
             pass
     # Fallback sample matching schema
-    return [
-        {
-            "elementId": "",
-            "elementContent": "TodoList",
-            "elementType": "BUTTON",
-            "isDestination": "true",
-            "interactionType": "mouseover",
-            "serverTimestamp": "2025-08-09T13:29:44.266506",
-            "id": 1,
-        }
-    ]
+    return ""
 
 
 def main():
