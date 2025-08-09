@@ -1,0 +1,10 @@
+[
+  {
+    "elementId": "123",
+    "elementContent": "Hello!",
+    "timestamp": 0,
+    "interactionType": "hover",
+    "serverTimestamp": "2025-08-09T12:35:36.239986",
+    "id": 1
+  }
+]
