@@ -32,8 +32,9 @@ def load_interactions_default(repo_root: Path):
 
 
 def main():
+    app_name = "morningstar-landing-clone"
     repo_root = Path(__file__).resolve().parent
-    layout_path = repo_root / "demo-app" / "todo" / "src" / "components" / "Layout.tsx"
+    layout_path = repo_root / "demo-app" / app_name / "src" / "components" / "Layout.tsx"
 
     if not layout_path.exists():
         raise FileNotFoundError(f"Layout file not found at {layout_path}")
