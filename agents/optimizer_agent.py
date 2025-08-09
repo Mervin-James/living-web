@@ -1,8 +1,9 @@
 import os
 import re
 import sys
+import json
 from dataclasses import dataclass
-from typing import Optional, Tuple, List
+from typing import Optional, Tuple, List, Dict, Any
 
 try:
     # OpenAI client compatible with Morph's API
@@ -75,6 +76,47 @@ class OptimizerAgent:
     def _read_log_lines(log_path: str) -> List[str]:
         with open(log_path, "r", encoding="utf-8") as f:
             return [ln.rstrip("\n") for ln in f.readlines()]
+
+    @staticmethod
+    def _load_interactions_from_path(path: str) -> Optional[List[Dict[str, Any]]]:
+        try:
+            if path.lower().endswith(".json"):
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        return data  # expect list of interaction dicts
+        except Exception:
+            return None
+        return None
+
+    @staticmethod
+    def _extract_last_interaction(interactions: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+        if not interactions:
+            return None
+        return interactions[-1]
+
+    @staticmethod
+    def _guess_component_from_text(text: str) -> Optional[str]:
+        if not text:
+            return None
+        m = re.search(r"[A-Z][A-Za-z0-9_]*", text)
+        return m.group(0) if m else None
+
+    @staticmethod
+    def _list_layout_component_tags(tsx: str) -> List[str]:
+        bounds = OptimizerAgent._find_layout_return_jsx_bounds(tsx)
+        if not bounds:
+            return []
+        jsx = tsx[bounds[0]:bounds[1]]
+        names = re.findall(r"<\s*([A-Z][A-Za-z0-9_]*)\b", jsx)
+        # remove duplicates preserving order
+        seen: set = set()
+        ordered: List[str] = []
+        for n in names:
+            if n not in seen:
+                seen.add(n)
+                ordered.append(n)
+        return ordered
 
     # ---- TSX parsing helpers ----
     @staticmethod
@@ -263,8 +305,8 @@ class OptimizerAgent:
     @staticmethod
     def _plan_edit_snippet(
         initial_code: str,
-        component_name: str,
-        log_lines: List[str],
+        component_name: Optional[str],
+        interactions: Optional[List[Dict[str, Any]]],
         planner_model: str,
     ) -> str:
         system_prompt = (
@@ -278,12 +320,14 @@ class OptimizerAgent:
             "OUTPUT FORMAT: Return ONLY a Morph Fast Apply abbreviated edit snippet using the special delimiter `// ... existing code ...` to indicate unchanged code. Do not include explanations or code fences."
         )
 
+        interactions_json = json.dumps(interactions[-50:] if interactions else [], indent=2)
+        target_label = component_name or "UNKNOWN"
         user_prompt = (
-            f"Target component: {component_name}\n\n"
-            "Interaction log (last line is the final user interaction):\n" + "\n".join(log_lines[:200]) + "\n\n"
+            f"Target component (if known): {target_label}\n\n"
+            "Recent user interactions (JSON, last is most recent):\n" + interactions_json + "\n\n"
             "Here is the entire layout.tsx file content. Only modify within the JSX returned by the `Layout` component:\n\n"
             f"{initial_code}\n\n"
-            "Return ONLY the abbreviated edit snippet per Morph Fast Apply guidance, ensuring it rearranges/moves/resizes existing elements to make the target component more prevalent, without adding new UI elements."
+            "Return ONLY the abbreviated edit snippet per Morph Fast Apply guidance, ensuring it rearranges/moves/resizes existing elements to make the target component (or the component most relevant to the last interaction) more prevalent, without adding new UI elements."
         )
 
         resp = completion(
@@ -337,7 +381,8 @@ class OptimizerAgent:
         self,
         *,
         layout: str,
-        log: str,
+        interactions: Optional[List[Dict[str, Any]]] = None,
+        log: Optional[str] = None,
         output: Optional[str] = None,
         no_backup: bool = False,
         print_edit: bool = False,
@@ -352,39 +397,64 @@ class OptimizerAgent:
         more prevalent, using only rearrangement/movement/resizing of existing elements inside
         the JSX returned by `Layout`. Returns the merged TSX string, or None if dry-run.
         """
-        if not os.path.isabs(layout) or not os.path.isabs(log):
-            raise ValueError("Please provide absolute paths for `layout` and `log`.")
+        if not os.path.isabs(layout):
+            raise ValueError("Please provide an absolute path for `layout`.")
         if not os.path.exists(layout):
             raise FileNotFoundError(f"layout file not found: {layout}")
-        if not os.path.exists(log):
+        if interactions is None and log is None:
+            raise ValueError("Provide either `interactions` (list of dict) or `log` (absolute path).")
+        if log is not None and not os.path.isabs(log):
+            raise ValueError("Please provide an absolute path for `log`.")
+        if log is not None and not os.path.exists(log):
             raise FileNotFoundError(f"log file not found: {log}")
 
         api_key = os.getenv("MORPH_API_KEY")
         if not api_key:
             raise EnvironmentError("Environment variable MORPH_API_KEY is not set.")
 
-        # 1) Target component from log
-        component_name = OptimizerAgent._parse_log_last_component(log)
+        # 1) Normalize interactions and derive target
+        interactions_list: Optional[List[Dict[str, Any]]] = interactions
+        if interactions_list is None and log is not None:
+            # Try JSON interactions file
+            interactions_list = OptimizerAgent._load_interactions_from_path(log)
+        component_name: Optional[str] = None
+        if interactions_list:
+            last = OptimizerAgent._extract_last_interaction(interactions_list)
+            if last:
+                # Prefer elementContent; fallback to elementId
+                text = (str(last.get("elementContent")) if last.get("elementContent") is not None else "") or str(last.get("elementId") or "")
+                component_name = OptimizerAgent._guess_component_from_text(text)
+        elif log is not None:
+            # Fallback to legacy .txt log format
+            component_name = OptimizerAgent._parse_log_last_component(log)
 
         # 2) Read initial code
         initial_code = OptimizerAgent._read_text(layout)
 
         # 3) Generate edit snippet via LLM planner
-        log_lines = OptimizerAgent._read_log_lines(log)
         try:
             edit_snippet = OptimizerAgent._plan_edit_snippet(
                 initial_code=initial_code,
                 component_name=component_name,
-                log_lines=log_lines,
+                interactions=interactions_list,
                 planner_model=planner_model,
             )
         except Exception as planner_exc:
             # Heuristic fallback that respects constraints (no new elements, only move if found)
-            plan = OptimizerAgent._derive_edit_snippet(initial_code, component_name)
+            # If we don't have a clear component name, attempt to choose the first component in Layout JSX
+            guessed = component_name
+            if not guessed:
+                tags = OptimizerAgent._list_layout_component_tags(initial_code)
+                guessed = tags[0] if tags else None
+            if not guessed:
+                raise RuntimeError(
+                    f"Planner failed ({planner_exc}) and no component could be inferred from interactions or layout."
+                )
+            plan = OptimizerAgent._derive_edit_snippet(initial_code, guessed)
             edit_snippet = OptimizerAgent._build_update_snippet(plan)
             if not edit_snippet:
                 raise RuntimeError(
-                    f"Planner failed ({planner_exc}) and fallback couldn't safely move `{component_name}` inside Layout."
+                    f"Planner failed ({planner_exc}) and fallback couldn't safely move `{guessed}` inside Layout."
                 )
 
         if print_edit:
@@ -393,7 +463,8 @@ class OptimizerAgent:
 
         instructions = (
             "I am optimizing the layout by rearranging/resizing existing UI elements to make the last user-interacted component more prevalent. "
-            f"Strictly modify only within the JSX returned by the `Layout` component. Move `{component_name}` earlier in the primary content region and/or increase its prominence using existing props/styles. "
+            f"Strictly modify only within the JSX returned by the `Layout` component. Move `{component_name or 'the most relevant component'}" 
+            " earlier in the primary content region and/or increase its prominence using existing props/styles. "
             "Do NOT insert any new UI elements or imports; avoid duplication by removing originals if moved. Keep TSX valid and minimal."
         )
 

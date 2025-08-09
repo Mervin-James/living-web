@@ -1,4 +1,0 @@
-(Header, 10)
-(UserCard, 25.5)
-(Footer, 5)
-
