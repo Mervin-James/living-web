@@ -475,8 +475,8 @@ function MorningstarContent() {
                     <p className="text-xs text-zinc-600">{earning.symbol}</p>
                   </div>
                   <span className={`text-xs px-2 py-1 rounded ${earning.status === 'Beat' ? 'bg-green-100 text-green-700' :
-                      earning.status === 'Miss' ? 'bg-red-100 text-red-700' :
-                        'bg-zinc-100 text-zinc-700'
+                    earning.status === 'Miss' ? 'bg-red-100 text-red-700' :
+                      'bg-zinc-100 text-zinc-700'
                     }`}>
                     {earning.status}
                   </span>
