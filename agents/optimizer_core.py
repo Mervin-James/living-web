@@ -4,14 +4,12 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
 try:
-    # LiteLLM router for planning call
-    from litellm import completion  # type: ignore
+    from litellm import completion  # LiteLLM router
 except Exception as exc:  # pragma: no cover
     raise
 
 try:
-    # OpenAI-compatible client for Morph Apply
-    import openai  # type: ignore
+    import openai  # OpenAI-compatible client for Morph Apply
 except Exception as exc:  # pragma: no cover
     raise
 
@@ -131,18 +129,22 @@ def guess_component_from_text(text: str) -> Optional[str]:
 def select_latest_destination_component(interactions: List[Dict[str, Any]], initial_code: str) -> str:
     for entry in reversed(interactions):
         flag = entry.get("isDestination")
+        is_dest = False
         if isinstance(flag, bool):
             is_dest = flag
-        else:
-            is_dest = str(flag).strip().lower() in {"true", "1", "yes", "y"}
+        elif isinstance(flag, str):
+            is_dest = flag.strip().lower() in {"true", "1", "yes", "y"}
         if not is_dest:
             continue
         text = (str(entry.get("elementContent")) if entry.get("elementContent") is not None else "") or str(entry.get("elementId") or "")
         component = guess_component_from_text(text)
         if component:
             return component
-    # If none marked as destination, raise for caller to decide
-    raise ValueError("No destination interaction found in provided interactions.")
+    # fallback if none marked destination: pick first component in Layout
+    tags = list_layout_component_tags(initial_code)
+    if tags:
+        return tags[0]
+    raise ValueError("No destination interaction found and no components detected in Layout JSX.")
 
 
 def derive_edit_plan(tsx: str, component_name: str) -> PromotionPlan:
@@ -218,7 +220,7 @@ def plan_edit_snippet_with_llm(
         "HARD CONSTRAINTS: \n"
         "1) Only modify code inside the JSX returned by the `Layout` component.\n"
         "2) Do NOT insert new UI elements or imports. No new tags/components beyond moving/resizing existing ones.\n"
-        "3) Optimize ONLY the target component (the latest destination). Do not alter other components' order or size unless required to move the target.\n"
+        "3) Optimize ONLY the target component (the latest destination). Do not alter other components unless required to move the target.\n"
         "4) Keep TypeScript/TSX valid and preserve behavior. Minimize edits.\n"
         "OUTPUT FORMAT: Return ONLY a Morph Fast Apply abbreviated edit snippet using the delimiter `// ... existing code ...`. No commentary or code fences."
     )
