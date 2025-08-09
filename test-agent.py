@@ -25,6 +25,7 @@ def main():
     # app_name = "todo"
     repo_root = Path(__file__).resolve().parent
     layout_path = repo_root / "demo-app" / "morningstar-landing-clone" / "src" / "app" / "layout.tsx"
+    # If you want to target the TODO app instead, comment the line above and uncomment below:
     # layout_path = repo_root / "demo-app" / "todo" / "src" / "components" / "Layout.tsx"
 
     if not layout_path.exists():
@@ -39,7 +40,7 @@ def main():
     merged = agent.invoke(
         layout=str(layout_path),
         interactions=interactions,
-        output=None,
+        output=str(layout_path),
         no_backup=False,
         print_edit=print_edit,
         dry_run=dry_run,

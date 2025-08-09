@@ -126,6 +126,50 @@ def guess_component_from_text(text: str) -> Optional[str]:
     return m.group(0) if m else None
 
 
+def _get_layout_jsx(tsx: str) -> Optional[str]:
+    bounds = find_layout_return_jsx_bounds(tsx)
+    if not bounds:
+        return None
+    return tsx[bounds[0]:bounds[1]]
+
+
+def list_all_tags_in_layout(tsx: str) -> List[str]:
+    jsx = _get_layout_jsx(tsx)
+    if not jsx:
+        return []
+    names = re.findall(r"<\s*([A-Za-z][A-Za-z0-9_]*)\b", jsx)
+    seen: set = set()
+    ordered: List[str] = []
+    for n in names:
+        if n not in seen:
+            seen.add(n)
+            ordered.append(n)
+    return ordered
+
+
+def list_data_destination_tags_in_layout(tsx: str) -> List[str]:
+    jsx = _get_layout_jsx(tsx)
+    if not jsx:
+        return []
+    tags: List[str] = []
+    # Find every occurrence of the attribute first, then backtrack to the tag start
+    for m in re.finditer(r"data-destination(?:\s*=\s*(?:\"?(?:true|1)\"?|\'?true\'?))?\b", jsx, flags=re.IGNORECASE):
+        attr_idx = m.start()
+        # Find nearest '<' before the attribute and ensure there is no '>' after it
+        lt_idx = jsx.rfind('<', 0, attr_idx)
+        gt_idx = jsx.rfind('>', 0, attr_idx)
+        if lt_idx == -1 or (gt_idx != -1 and gt_idx > lt_idx):
+            continue  # not inside a tag open
+        # Skip closing tags and whitespace
+        i = lt_idx + 1
+        while i < len(jsx) and jsx[i] in {' ', '/'}:
+            i += 1
+        name_match = re.match(r"[A-Za-z][A-Za-z0-9_]*", jsx[i:])
+        if name_match:
+            tags.append(name_match.group(0))
+    return tags
+
+
 def _extract_component_from_analysis(analysis_text: str, initial_code: str) -> Optional[str]:
     if not analysis_text:
         return None
@@ -142,6 +186,9 @@ def _extract_component_from_analysis(analysis_text: str, initial_code: str) -> O
 
 
 def select_latest_destination_component(interactions_or_analysis: Any, initial_code: str) -> str:
+    # Prefer explicit data-destination markers in Layout, take the last occurrence in file order
+    destination_tags = list_data_destination_tags_in_layout(initial_code)
+    preferred_from_layout: Optional[str] = destination_tags[-1] if destination_tags else None
     # Case 1: Structured interactions list of dicts
     if isinstance(interactions_or_analysis, list):
         for entry in reversed(interactions_or_analysis):
@@ -158,16 +205,30 @@ def select_latest_destination_component(interactions_or_analysis: Any, initial_c
             text = (str(entry.get("elementContent")) if entry.get("elementContent") is not None else "") or str(entry.get("elementId") or "")
             component = guess_component_from_text(text)
             if component:
+                if preferred_from_layout and component == preferred_from_layout:
+                    return component
                 return component
     # Case 2: Completed analysis as text
     if isinstance(interactions_or_analysis, str) and interactions_or_analysis.strip():
         comp = _extract_component_from_analysis(interactions_or_analysis, initial_code)
         if comp:
             return comp
-    # Fallback: first component in Layout
-    tags = list_layout_component_tags(initial_code)
-    if tags:
-        return tags[0]
+    # Fallbacks
+    # 1) If Layout has explicit data-destination tags, use the last one encountered in file order
+    if preferred_from_layout:
+        return preferred_from_layout
+    # 2) Prefer first Capitalized component tag
+    comp_tags = list_layout_component_tags(initial_code)
+    if comp_tags:
+        return comp_tags[0]
+    # 3) Else consider any JSX tag inside Layout, prefer semantic containers
+    all_tags = list_all_tags_in_layout(initial_code)
+    for preferred in ["main", "aside", "section", "nav"]:
+        if preferred in all_tags:
+            return preferred
+    if all_tags:
+        return all_tags[0]
+    # 4) Give up
     raise ValueError("No destination/component found and no components detected in Layout JSX.")
 
 
@@ -185,20 +246,28 @@ def derive_edit_plan(tsx: str, component_name: str) -> PromotionPlan:
     abs_start = jsx_start + block_bounds_local[0]
     abs_end = jsx_start + block_bounds_local[1]
     original_block = tsx[abs_start:abs_end]
-    main_bounds_local = find_main_container_bounds(layout_jsx)
-    if main_bounds_local:
-        main_open_start_local, main_open_end_local, _ = main_bounds_local
-        insert_before_abs = jsx_start + main_open_start_local
-        insert_after_abs = jsx_start + main_open_end_local
-        insert_context_before = tsx[insert_before_abs:insert_after_abs]
-        after_main_slice = tsx[insert_after_abs:jsx_end]
-        first_non_empty_line = next((l for l in after_main_slice.splitlines(keepends=True) if l.strip()), "\n")
-        insert_context_after = first_non_empty_line
-    else:
+    # Choose insertion region
+    if component_name.lower() == "main":
+        # Move <main> earlier within Layout JSX (before first non-empty line after return()
         prefix = tsx[jsx_start: min(jsx_start + 200, jsx_end)]
         first_non_empty_line = next((l for l in tsx[jsx_start:jsx_end].splitlines(keepends=True) if l.strip()), "\n")
         insert_context_before = prefix
         insert_context_after = first_non_empty_line
+    else:
+        main_bounds_local = find_main_container_bounds(layout_jsx)
+        if main_bounds_local:
+            main_open_start_local, main_open_end_local, _ = main_bounds_local
+            insert_before_abs = jsx_start + main_open_start_local
+            insert_after_abs = jsx_start + main_open_end_local
+            insert_context_before = tsx[insert_before_abs:insert_after_abs]
+            after_main_slice = tsx[insert_after_abs:jsx_end]
+            first_non_empty_line = next((l for l in after_main_slice.splitlines(keepends=True) if l.strip()), "\n")
+            insert_context_after = first_non_empty_line
+        else:
+            prefix = tsx[jsx_start: min(jsx_start + 200, jsx_end)]
+            first_non_empty_line = next((l for l in tsx[jsx_start:jsx_end].splitlines(keepends=True) if l.strip()), "\n")
+            insert_context_before = prefix
+            insert_context_after = first_non_empty_line
     before_slice = tsx[:abs_start]
     after_slice = tsx[abs_end:]
     before_lines = before_slice.splitlines(keepends=True)
@@ -320,23 +389,26 @@ def generate_edit_and_merge(
     morph_model: str,
     timeout: Optional[float] = None,
 ) -> Tuple[str, str]:
-    target_component = select_latest_destination_component(interactions, initial_code)
+    # Read human-authored report describing desired layout changes
+    from pathlib import Path
+    repo_root = Path(__file__).resolve().parents[1]
+    report_path = repo_root / "track" / "report.txt"
     try:
-        edit_snippet = plan_edit_snippet_with_llm(
-            initial_code=initial_code,
-            component_name=target_component,
-            interactions_or_analysis=interactions,
-            planner_model=planner_model,
-        )
-    except Exception:
-        plan = derive_edit_plan(initial_code, target_component)
-        edit_snippet = build_update_snippet(plan)
-        if not edit_snippet:
-            raise RuntimeError("Fallback could not construct a safe edit snippet.")
+        analysis_text = report_path.read_text(encoding="utf-8")
+    except Exception as exc:
+        raise RuntimeError(f"Failed to read analysis report at {report_path}: {exc}")
+
+    # Plan edits using the report as free-text guidance
+    edit_snippet = plan_edit_snippet_with_llm(
+        initial_code=initial_code,
+        component_name="UNKNOWN",
+        interactions_or_analysis=analysis_text,
+        planner_model=planner_model,
+    )
+
     instructions = (
-        "I am optimizing the layout by rearranging/resizing existing UI elements to make ONLY the latest destination component more prevalent. "
-        f"Strictly modify only within the JSX returned by the `Layout` component. Move `{target_component}` earlier in the primary content region and/or increase its prominence using existing props/styles. "
-        "Do NOT insert any new UI elements or imports; avoid duplication by removing originals if moved. Keep TSX valid and minimal."
+        "Apply the described layout optimizations from the provided analysis while only rearranging/moving/resizing existing UI elements. "
+        "Strictly modify only within the JSX returned by the `Layout` component. Do NOT insert new UI elements or imports; avoid duplication by removing originals if moved. Keep TSX valid and minimal."
     )
     merged_code = call_morph_apply(
         api_key=morph_api_key,
