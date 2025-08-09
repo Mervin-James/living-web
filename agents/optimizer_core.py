@@ -127,6 +127,7 @@ def guess_component_from_text(text: str) -> Optional[str]:
 
 
 def select_latest_destination_component(interactions: List[Dict[str, Any]], initial_code: str) -> str:
+    # 1) Prefer latest explicit destination interaction
     for entry in reversed(interactions):
         flag = entry.get("isDestination")
         is_dest = False
@@ -140,19 +141,30 @@ def select_latest_destination_component(interactions: List[Dict[str, Any]], init
         component = guess_component_from_text(text)
         if component:
             return component
-    # fallback if none marked destination: pick first component in Layout
+
+    # 2) Fallback to first capitalized component within Layout JSX
     tags = list_layout_component_tags(initial_code)
     if tags:
         return tags[0]
-    raise ValueError("No destination interaction found and no components detected in Layout JSX.")
+
+    # 3) Final fallback to common containers present in Layout
+    if re.search(r"<\s*main(\s|>)", initial_code):
+        return "main"
+    if re.search(r"<\s*aside(\s|>)", initial_code):
+        return "aside"
+
+    # 4) Give up with a clear error
+    raise ValueError("No destination interaction found and no components/containers detected in Layout JSX.")
 
 
 def derive_edit_plan(tsx: str, component_name: str) -> PromotionPlan:
     layout_bounds = find_layout_return_jsx_bounds(tsx)
     if not layout_bounds:
+        # If targeting semantic containers like 'main' or 'aside', still allow reordering by context
         return PromotionPlan(component_name, None, None, None, None, None)
     jsx_start, jsx_end = layout_bounds
     layout_jsx = tsx[jsx_start:jsx_end]
+    # Support HTML5 container tags as well as React components
     block_bounds_local = find_tag_block(layout_jsx, component_name)
     if not block_bounds_local:
         return PromotionPlan(component_name, None, None, None, None, None)
