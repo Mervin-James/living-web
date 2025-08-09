@@ -4,6 +4,9 @@ from pathlib import Path
 
 from agents.optimizer_agent import OptimizerAgent
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def load_interactions_default(repo_root: Path):
     interactions_path = repo_root / "track" / "interactions.json"
