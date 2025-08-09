@@ -37,7 +37,7 @@ class OptimizerAgent:
         self,
         *,
         layout: str,
-        interactions: Optional[List[Dict[str, Any]]] = None,
+        interactions: Optional[Any] = None,
         log: Optional[str] = None,
         output: Optional[str] = None,
         no_backup: bool = False,
@@ -50,7 +50,12 @@ class OptimizerAgent:
     ) -> Optional[str]:
         """
         Optimize the `layout.tsx` by rearranging/moving/resizing ONLY existing elements inside the JSX
-        returned by `Layout`, focusing on the latest destination interaction. Uses optimizer_core for planning/merge.
+        returned by `Layout`, focusing on the latest destination interaction.
+
+        Accepts either:
+        - interactions: a JSON-like list of event dicts, OR a completed analysis as plain text
+        - log: absolute path to a JSON file (list of events) OR a plain-text analysis file
+        Uses optimizer_core for planning/merge.
         """
         if not os.path.isabs(layout):
             raise ValueError("Please provide an absolute path for `layout`.")
@@ -67,25 +72,28 @@ class OptimizerAgent:
         if not api_key:
             raise EnvironmentError("Environment variable MORPH_API_KEY is not set.")
 
-        # Load interactions
-        interactions_list: Optional[List[Dict[str, Any]]] = interactions
-        if interactions_list is None and log is not None:
+        # Load interactions or analysis content
+        interactions_data: Any = interactions
+        if interactions_data is None and log is not None:
             with open(log, "r", encoding="utf-8") as f:
-                payload = json.load(f)
-            if not isinstance(payload, list):
-                raise ValueError("Interactions JSON must be a list of objects")
-            interactions_list = payload
+                raw = f.read()
+            # Try JSON first, otherwise treat as raw analysis text
+            try:
+                parsed = json.loads(raw)
+                interactions_data = parsed if isinstance(parsed, list) else raw
+            except Exception:
+                interactions_data = raw
 
         # Read initial code
         initial_code = OptimizerAgent._read_text(layout)
 
         # Dry-run: plan only
         if dry_run:
-            target = select_latest_destination_component(interactions_list or [], initial_code)
+            target = select_latest_destination_component(interactions_data or [], initial_code)
             edit_snippet = plan_edit_snippet_with_llm(
                 initial_code=initial_code,
                 component_name=target,
-                interactions=interactions_list or [],
+                interactions_or_analysis=interactions_data or [],
                 planner_model=planner_model,
             )
             if print_edit:
@@ -96,7 +104,7 @@ class OptimizerAgent:
         # Plan + merge via core
         edit_snippet, merged_code = generate_edit_and_merge(
             initial_code=initial_code,
-            interactions=interactions_list or [],
+            interactions=interactions_data or [],
             planner_model=planner_model,
             morph_api_key=api_key,
             morph_base_url=base_url,

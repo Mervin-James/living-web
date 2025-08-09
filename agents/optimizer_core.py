@@ -126,25 +126,49 @@ def guess_component_from_text(text: str) -> Optional[str]:
     return m.group(0) if m else None
 
 
-def select_latest_destination_component(interactions: List[Dict[str, Any]], initial_code: str) -> str:
-    for entry in reversed(interactions):
-        flag = entry.get("isDestination")
-        is_dest = False
-        if isinstance(flag, bool):
-            is_dest = flag
-        elif isinstance(flag, str):
-            is_dest = flag.strip().lower() in {"true", "1", "yes", "y"}
-        if not is_dest:
-            continue
-        text = (str(entry.get("elementContent")) if entry.get("elementContent") is not None else "") or str(entry.get("elementId") or "")
-        component = guess_component_from_text(text)
-        if component:
-            return component
-    # fallback if none marked destination: pick first component in Layout
+def _extract_component_from_analysis(analysis_text: str, initial_code: str) -> Optional[str]:
+    if not analysis_text:
+        return None
+    tags = list_layout_component_tags(initial_code)
+    # Prefer first tag that appears in the analysis text (word boundary match, case-sensitive for component names)
+    for tag in tags:
+        if re.search(rf"\b{re.escape(tag)}\b", analysis_text):
+            return tag
+    # As a weaker heuristic, fall back to first Capitalized token in analysis
+    guessed = guess_component_from_text(analysis_text)
+    if guessed in tags:
+        return guessed
+    return None
+
+
+def select_latest_destination_component(interactions_or_analysis: Any, initial_code: str) -> str:
+    # Case 1: Structured interactions list of dicts
+    if isinstance(interactions_or_analysis, list):
+        for entry in reversed(interactions_or_analysis):
+            if not isinstance(entry, dict):
+                continue
+            flag = entry.get("isDestination")
+            is_dest = False
+            if isinstance(flag, bool):
+                is_dest = flag
+            elif isinstance(flag, str):
+                is_dest = flag.strip().lower() in {"true", "1", "yes", "y"}
+            if not is_dest:
+                continue
+            text = (str(entry.get("elementContent")) if entry.get("elementContent") is not None else "") or str(entry.get("elementId") or "")
+            component = guess_component_from_text(text)
+            if component:
+                return component
+    # Case 2: Completed analysis as text
+    if isinstance(interactions_or_analysis, str) and interactions_or_analysis.strip():
+        comp = _extract_component_from_analysis(interactions_or_analysis, initial_code)
+        if comp:
+            return comp
+    # Fallback: first component in Layout
     tags = list_layout_component_tags(initial_code)
     if tags:
         return tags[0]
-    raise ValueError("No destination interaction found and no components detected in Layout JSX.")
+    raise ValueError("No destination/component found and no components detected in Layout JSX.")
 
 
 def derive_edit_plan(tsx: str, component_name: str) -> PromotionPlan:
@@ -211,23 +235,29 @@ def build_update_snippet(plan: PromotionPlan) -> str:
 def plan_edit_snippet_with_llm(
     initial_code: str,
     component_name: str,
-    interactions: List[Dict[str, Any]],
+    interactions_or_analysis: Any,
     planner_model: str,
 ) -> str:
     system_prompt = (
         "You are an expert React/TSX layout optimizer. You receive a layout.tsx file and a target component name. "
         "Your goal is to make ONLY the target component more prevalent by rearranging/moving/resizing EXISTING UI elements. "
         "HARD CONSTRAINTS: \n"
-        "1) Only modify code inside the JSX returned by the `Layout` component.\n"
+        "1) Only modify code inside the TSX returned by the `Layout` component.\n"
         "2) Do NOT insert new UI elements or imports. No new tags/components beyond moving/resizing existing ones.\n"
         "3) Optimize ONLY the target component (the latest destination). Do not alter other components unless required to move the target.\n"
         "4) Keep TypeScript/TSX valid and preserve behavior. Minimize edits.\n"
         "OUTPUT FORMAT: Return ONLY a Morph Fast Apply abbreviated edit snippet using the delimiter `// ... existing code ...`. No commentary or code fences."
     )
-    interactions_json = json.dumps(interactions[-50:], indent=2)
+    if isinstance(interactions_or_analysis, list):
+        interactions_json = json.dumps(interactions_or_analysis[-50:], indent=2)
+        context_block = "Recent user interactions (JSON, last is most recent):\n" + interactions_json
+    else:
+        analysis_text = str(interactions_or_analysis or "").strip()
+        context_block = "Completed UX analysis (free text):\n" + (analysis_text if analysis_text else "<none provided>")
+
     user_prompt = (
         f"Target component (latest destination): {component_name}\n\n"
-        "Recent user interactions (JSON, last is most recent):\n" + interactions_json + "\n\n"
+        + context_block + "\n\n"
         "Here is the entire layout.tsx file content. Only modify within the JSX returned by the `Layout` component:\n\n"
         f"{initial_code}\n\n"
         "Return ONLY the abbreviated edit snippet per Morph Fast Apply guidance, ensuring you only optimize the target component and avoid adding new UI elements."
@@ -281,7 +311,7 @@ def call_morph_apply(
 def generate_edit_and_merge(
     *,
     initial_code: str,
-    interactions: List[Dict[str, Any]],
+    interactions: Any,
     planner_model: str,
     morph_api_key: str,
     morph_base_url: str,
@@ -293,7 +323,7 @@ def generate_edit_and_merge(
         edit_snippet = plan_edit_snippet_with_llm(
             initial_code=initial_code,
             component_name=target_component,
-            interactions=interactions,
+            interactions_or_analysis=interactions,
             planner_model=planner_model,
         )
     except Exception:

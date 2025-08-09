@@ -1,0 +1,49 @@
+{
+  "session_id": "20250809_154737_536",
+  "my_id": 459185,
+  "start_time": "2025-08-09T15:47:37.536002",
+  "end_time": "2025-08-09T15:47:55.949898",
+  "interactions": [
+    {
+      "myId": 459185,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.526859,
+      "id": 1
+    },
+    {
+      "myId": 459185,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.924809,
+      "id": 2
+    },
+    {
+      "myId": 459185,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.731049,
+      "id": 3
+    },
+    {
+      "myId": 459185,
+      "elementId": "",
+      "elementContent": "Import JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 16.741695,
+      "id": 4
+    }
+  ],
+  "file_name": "session_459185_20250809_154737_536.json"
+}

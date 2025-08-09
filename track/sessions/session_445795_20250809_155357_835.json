@@ -1,0 +1,69 @@
+{
+  "session_id": "20250809_155357_835",
+  "my_id": 445795,
+  "start_time": "2025-08-09T15:53:57.835088",
+  "end_time": "2025-08-09T15:54:04.697582",
+  "interactions": [
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 1.074674,
+      "id": 1
+    },
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 2.42913,
+      "id": 2
+    },
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.516227,
+      "id": 3
+    },
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "Copy URL",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 4.155871,
+      "id": 4
+    },
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.03274,
+      "id": 5
+    },
+    {
+      "myId": 445795,
+      "elementId": "",
+      "elementContent": "Your taskstest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.641556,
+      "id": 6
+    }
+  ],
+  "file_name": "session_445795_20250809_155357_835.json"
+}

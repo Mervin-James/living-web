@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_160123_929",
+  "my_id": 967986,
+  "start_time": "2025-08-09T16:01:23.930422",
+  "end_time": "2025-08-09T16:01:41.099423",
+  "interactions": [
+    {
+      "myId": 967986,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.483727,
+      "id": 1
+    },
+    {
+      "myId": 967986,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.165665,
+      "id": 2
+    },
+    {
+      "myId": 967986,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.18167,
+      "id": 3
+    }
+  ],
+  "file_name": "session_967986_20250809_160123_929.json"
+}

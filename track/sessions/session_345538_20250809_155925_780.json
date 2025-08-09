@@ -1,0 +1,109 @@
+{
+  "session_id": "20250809_155925_780",
+  "my_id": 345538,
+  "start_time": "2025-08-09T15:59:25.780674",
+  "end_time": "2025-08-09T15:59:40.003641",
+  "interactions": [
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 1.761662,
+      "id": 1
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.673829,
+      "id": 2
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 6.835589,
+      "id": 3
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Your tasksTestno\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.676767,
+      "id": 4
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Your tasksTestno\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.046662,
+      "id": 5
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Your tasksTestno\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.381536,
+      "id": 6
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.319447,
+      "id": 7
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.642414,
+      "id": 8
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Copy URL",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 10.526713,
+      "id": 9
+    },
+    {
+      "myId": 345538,
+      "elementId": "",
+      "elementContent": "Your tasksTestno\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.498643,
+      "id": 10
+    }
+  ],
+  "file_name": "session_345538_20250809_155925_780.json"
+}

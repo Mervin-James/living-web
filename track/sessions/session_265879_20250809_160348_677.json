@@ -1,0 +1,158 @@
+{
+  "session_id": "20250809_160348_677",
+  "my_id": 265879,
+  "start_time": "2025-08-09T16:03:48.677339",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 265879,
+      "elementId": "recharts-area-_r_4_",
+      "elementContent": null,
+      "elementType": "path",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.298793,
+      "id": 1
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.787505,
+      "id": 2
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Berkshire2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan DziubinskiInvestors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFAHow Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.217025,
+      "id": 3
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Berkshire2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan DziubinskiInvestors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFAHow Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.389599,
+      "id": 4
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.81441,
+      "id": 5
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.994466,
+      "id": 6
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.156622,
+      "id": 7
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "More \u203a",
+      "elementType": "A",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 18.269838,
+      "id": 8
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Trade DeskTTDMissAug 8, 2025-3.1%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 29.937382,
+      "id": 9
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Trade DeskTTDMissAug 8, 2025-3.1%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 30.636649,
+      "id": 10
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Miss",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 32.568934,
+      "id": 11
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Trade DeskTTDMiss",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 33.12578,
+      "id": 12
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "Company Earnings",
+      "elementType": "H2",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 34.677822,
+      "id": 13
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 35.107793,
+      "id": 14
+    },
+    {
+      "myId": 265879,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeatAug 7, 2025+7.3%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 36.503476,
+      "id": 15
+    }
+  ]
+}

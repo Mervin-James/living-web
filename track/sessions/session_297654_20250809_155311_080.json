@@ -1,0 +1,69 @@
+{
+  "session_id": "20250809_155311_080",
+  "my_id": 297654,
+  "start_time": "2025-08-09T15:53:11.080704",
+  "end_time": "2025-08-09T15:53:17.054891",
+  "interactions": [
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.202168,
+      "id": 1
+    },
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.557829,
+      "id": 2
+    },
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.179836,
+      "id": 3
+    },
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.063266,
+      "id": 4
+    },
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.489601,
+      "id": 5
+    },
+    {
+      "myId": 297654,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.345996,
+      "id": 6
+    }
+  ],
+  "file_name": "session_297654_20250809_155311_080.json"
+}

@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_155751_984",
+  "my_id": 750531,
+  "start_time": "2025-08-09T15:57:51.984200",
+  "end_time": "2025-08-09T15:57:58.139303",
+  "interactions": [
+    {
+      "myId": 750531,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.185937,
+      "id": 1
+    },
+    {
+      "myId": 750531,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.684618,
+      "id": 2
+    },
+    {
+      "myId": 750531,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.121805,
+      "id": 3
+    }
+  ],
+  "file_name": "session_750531_20250809_155751_984.json"
+}

@@ -1,0 +1,59 @@
+{
+  "session_id": "20250809_160551_084",
+  "my_id": 345617,
+  "start_time": "2025-08-09T16:05:51.084598",
+  "end_time": "2025-08-09T16:06:17.781641",
+  "interactions": [
+    {
+      "myId": 345617,
+      "elementId": "recharts-area-_r_4_",
+      "elementContent": null,
+      "elementType": "path",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.855307,
+      "id": 1
+    },
+    {
+      "myId": 345617,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "path",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.209432,
+      "id": 2
+    },
+    {
+      "myId": 345617,
+      "elementId": "",
+      "elementContent": "Industrial+0.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.79129,
+      "id": 3
+    },
+    {
+      "myId": 345617,
+      "elementId": "",
+      "elementContent": "Real Estate-1.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.247082,
+      "id": 4
+    },
+    {
+      "myId": 345617,
+      "elementId": "",
+      "elementContent": "Industrial+0.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.25206,
+      "id": 5
+    }
+  ],
+  "file_name": "session_345617_20250809_160551_084.json"
+}

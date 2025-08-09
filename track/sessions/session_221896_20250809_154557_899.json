@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_154557_899",
+  "my_id": 221896,
+  "start_time": "2025-08-09T15:45:57.900089",
+  "end_time": "2025-08-09T15:46:52.908303",
+  "interactions": [
+    {
+      "myId": 221896,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.801693,
+      "id": 1
+    },
+    {
+      "myId": 221896,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.630239,
+      "id": 2
+    },
+    {
+      "myId": 221896,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.191761,
+      "id": 3
+    }
+  ],
+  "file_name": "session_221896_20250809_154557_899.json"
+}

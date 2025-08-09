@@ -1,0 +1,98 @@
+{
+  "session_id": "20250809_160513_527",
+  "my_id": 699074,
+  "start_time": "2025-08-09T16:05:13.528398",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 699074,
+      "elementId": "funds",
+      "elementContent": "FundsView All \u203aTop-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 1.346099,
+      "id": 1
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.129671,
+      "id": 2
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "US Market BarometerMarkets \u203aUpdated: Aug 8, 10:16 PM+0.68%Market SectorsTechnology+2.5%Healthcare+1.8%Finance-0.5%Energy+3.2%Consumer-1.2%Industrial+0.8%Materials-0.3%Utilities+0.5%Real Estate-1.8%Today's sector performanceMarket MoversGainersLosersActiveNEGG$79.79Newegg Commerce Inc+34.24%MENS$45.33Jyong Biotech Ltd+32.47%LZ$10.98LegalZoom.com+31.18%ASTH$28.08Astrana Health+30.85%GCT$28.91GigaCloud Technology+30.52%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.196473,
+      "id": 3
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Technology+2.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.348884,
+      "id": 4
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Technology+2.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.423095,
+      "id": 5
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Technology+2.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.769434,
+      "id": 6
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Finance-0.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.286885,
+      "id": 7
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Market Sectors",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.766397,
+      "id": 8
+    },
+    {
+      "myId": 699074,
+      "elementId": "",
+      "elementContent": "Real Estate-1.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.091292,
+      "id": 9
+    }
+  ]
+}
