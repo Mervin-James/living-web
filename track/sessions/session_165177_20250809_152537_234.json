@@ -1,0 +1,159 @@
+{
+  "session_id": "20250809_152537_234",
+  "my_id": 165177,
+  "start_time": "2025-08-09T15:25:37.234061",
+  "end_time": "2025-08-09T15:25:53.718585",
+  "interactions": [
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.434243,
+      "id": 1
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.301042,
+      "id": 2
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Import JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 4.310948,
+      "id": 3
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.627109,
+      "id": 4
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.189654,
+      "id": 5
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.388124,
+      "id": 6
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.620236,
+      "id": 7
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.025428,
+      "id": 8
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.406064,
+      "id": 9
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 12.025662,
+      "id": 10
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.793462,
+      "id": 11
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 13.297974,
+      "id": 12
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Due date",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.860259,
+      "id": 13
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.805636,
+      "id": 14
+    },
+    {
+      "myId": 165177,
+      "elementId": "",
+      "elementContent": "Your tasksWin a hackathonhighDue: 2025-08-09\u2191\u2193DeleteTesctlow\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.335918,
+      "id": 15
+    }
+  ],
+  "file_name": "session_165177_20250809_152537_234.json"
+}

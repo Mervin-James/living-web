@@ -1,0 +1,189 @@
+{
+  "session_id": "20250809_153241_043",
+  "my_id": 84617,
+  "start_time": "2025-08-09T15:32:41.043592",
+  "end_time": "2025-08-09T15:33:16.323335",
+  "interactions": [
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.722428,
+      "id": 1
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.08357,
+      "id": 2
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 12.539945,
+      "id": 3
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.771957,
+      "id": 4
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.229598,
+      "id": 5
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.424319,
+      "id": 6
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.640981,
+      "id": 7
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.571143,
+      "id": 8
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.101367,
+      "id": 9
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "High",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.339969,
+      "id": 10
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 24.064919,
+      "id": 11
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Your tasksWalk DoghighDue: 2025-08-10\u2191\u2193DeleteTake out trashDue: 2025-08-14\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.64625,
+      "id": 12
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 26.292431,
+      "id": 13
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 27.959734,
+      "id": 14
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 28.69246,
+      "id": 15
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Your tasksWalk DoghighDue: 2025-08-10\u2191\u2193DeleteTake out trashDue: 2025-08-14\u2191\u2193Delete",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 29.856708,
+      "id": 16
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Copy URL",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 30.517842,
+      "id": 17
+    },
+    {
+      "myId": 84617,
+      "elementId": "",
+      "elementContent": "Your tasksWalk DoghighDue: 2025-08-10\u2191\u2193DeleteTake out trashDue: 2025-08-14\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 32.46136,
+      "id": 18
+    }
+  ],
+  "file_name": "session_84617_20250809_153241_043.json"
+}

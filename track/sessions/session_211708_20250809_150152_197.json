@@ -1,0 +1,168 @@
+{
+  "session_id": "20250809_150152_197",
+  "my_id": 211708,
+  "start_time": "2025-08-09T15:01:52.197654",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "No items",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 80.50448,
+      "id": 1
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 82.624297,
+      "id": 2
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 87.339787,
+      "id": 3
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Testing this\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 89.073652,
+      "id": 4
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 89.514781,
+      "id": 5
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 89.700838,
+      "id": 6
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 90.473726,
+      "id": 7
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Copy URL",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 91.215986,
+      "id": 8
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "super-doFileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 93.478306,
+      "id": 9
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 93.804071,
+      "id": 10
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 94.391219,
+      "id": 11
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 94.914988,
+      "id": 12
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 95.342738,
+      "id": 13
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 95.848179,
+      "id": 14
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Your tasksTesting this\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 96.258575,
+      "id": 15
+    },
+    {
+      "myId": 211708,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 97.196658,
+      "id": 16
+    }
+  ]
+}

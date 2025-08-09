@@ -1,0 +1,5 @@
+Model: anthropic/claude-4-sonnet
+Created: 2025-08-09T15:18:39.232907
+Session: 20250809_151817_728 (user 748077)
+
+Analysis skipped: OPENROUTER_API_KEY not set.

@@ -1,0 +1,189 @@
+{
+  "session_id": "20250809_152658_496",
+  "my_id": 110356,
+  "start_time": "2025-08-09T15:26:58.496835",
+  "end_time": "2025-08-09T15:27:17.485148",
+  "interactions": [
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.484239,
+      "id": 1
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.390466,
+      "id": 2
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Import JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 3.39899,
+      "id": 3
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.251567,
+      "id": 4
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.159324,
+      "id": 5
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.38067,
+      "id": 6
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.308202,
+      "id": 7
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.14001,
+      "id": 8
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.23232,
+      "id": 9
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.431898,
+      "id": 10
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.869181,
+      "id": 11
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 12.750191,
+      "id": 12
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.569318,
+      "id": 13
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 14.159618,
+      "id": 14
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.651764,
+      "id": 15
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Your tasksTesctlow\u2191\u2193DeleteWin a hackathonhighDue: 2025-08-09\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.386748,
+      "id": 16
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.236895,
+      "id": 17
+    },
+    {
+      "myId": 110356,
+      "elementId": "",
+      "elementContent": "Your tasksTesctlow\u2191\u2193DeleteWin a hackathonhighDue: 2025-08-09\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.626734,
+      "id": 18
+    }
+  ],
+  "file_name": "session_110356_20250809_152658_496.json"
+}

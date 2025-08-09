@@ -1,0 +1,138 @@
+{
+  "session_id": "20250809_143140_432",
+  "my_id": 891881,
+  "start_time": "2025-08-09T14:31:40.432611",
+  "end_time": null,
+  "interactions": [
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.844949,
+      "id": 1
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.574081,
+      "id": 2
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 2.992244,
+      "id": 3
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.11488,
+      "id": 4
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.329103,
+      "id": 5
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.803608,
+      "id": 6
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.207997,
+      "id": 7
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.650002,
+      "id": 8
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.256771,
+      "id": 9
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.069094,
+      "id": 10
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 11.117601,
+      "id": 11
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "Your tasksTest\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.851582,
+      "id": 12
+    },
+    {
+      "myId": 891881,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.956068,
+      "id": 13
+    }
+  ]
+}

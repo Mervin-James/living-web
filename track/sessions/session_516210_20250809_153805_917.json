@@ -1,0 +1,19 @@
+{
+  "session_id": "20250809_153805_917",
+  "my_id": 516210,
+  "start_time": "2025-08-09T15:38:05.918318",
+  "end_time": "2025-08-09T15:38:10.971782",
+  "interactions": [
+    {
+      "myId": 516210,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAddYour tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.208239,
+      "id": 1
+    }
+  ],
+  "file_name": "session_516210_20250809_153805_917.json"
+}

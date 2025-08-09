@@ -1,0 +1,149 @@
+{
+  "session_id": "20250809_151817_728",
+  "my_id": 748077,
+  "start_time": "2025-08-09T15:18:17.729232",
+  "end_time": "2025-08-09T15:18:39.216723",
+  "interactions": [
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.811986,
+      "id": 1
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.603595,
+      "id": 2
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 10.319781,
+      "id": 3
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.681835,
+      "id": 4
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.61443,
+      "id": 5
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.158577,
+      "id": 6
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.122915,
+      "id": 7
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.700814,
+      "id": 8
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 16.624707,
+      "id": 9
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.195334,
+      "id": 10
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "StatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.661005,
+      "id": 11
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.037342,
+      "id": 12
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.708263,
+      "id": 13
+    },
+    {
+      "myId": 748077,
+      "elementId": "",
+      "elementContent": "Your tasksTesting todo creation\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.144327,
+      "id": 14
+    }
+  ],
+  "file_name": "session_748077_20250809_151817_728.json"
+}
