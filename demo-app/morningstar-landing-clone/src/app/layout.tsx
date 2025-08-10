@@ -306,7 +306,7 @@ function MorningstarContent() {
       {/* Main market dashboard */}
       <section className="bg-[#f9f9f8] py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-1 rounded-lg border border-zinc-200 bg-white p-4 shadow-sm" data-destination="true">
               <div className="flex items-center justify-between mb-3">
                 <h2 className="text-base font-semibold">US Market Barometer</h2>
@@ -325,48 +325,16 @@ function MorningstarContent() {
               <p className="mt-3 text-xs text-zinc-600">Today's sector performance</p>
             </div>
 
-            <div className="lg:col-span-2 rounded-lg border border-zinc-200 bg-white p-4 shadow-sm">
-              <div className="flex items-center justify-between mb-3">
-                <h2 className="text-base font-semibold">Market Movers</h2>
-                <div className="flex gap-2">
-                  <button className="text-xs px-2 py-1 rounded bg-zinc-100 font-medium" data-destination="true">Gainers</button>
-                  <button className="text-xs px-2 py-1 rounded text-zinc-600" data-destination="true">Losers</button>
-                  <button className="text-xs px-2 py-1 rounded text-zinc-600" data-destination="true">Active</button>
-                </div>
-              </div>
-              <div className="space-y-2">
-                {marketMovers.map((stock) => (
-                  <div key={stock.symbol} className="flex items-center justify-between rounded border border-zinc-200 px-3 py-2" data-destination="true">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-8">
-                        <SparklineChart trend="up" />
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-semibold">{stock.symbol}</span>
-                          <span className="text-sm">{stock.price}</span>
-                        </div>
-                        <span className="text-xs text-zinc-600">{stock.name}</span>
-                      </div>
-                    </div>
-                    <span className={`text-sm font-semibold ${stock.positive ? 'text-emerald-600' : 'text-red-600'}`}>
-                      {stock.change}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
-            <div className="rounded-lg border border-zinc-200 bg-white p-4 shadow-sm" data-destination="true">
+            <div className="lg:col-span-1 rounded-lg border border-zinc-200 bg-white p-4 shadow-sm" data-destination="true">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-sm font-semibold">DJIA - Intraday</h3>
                 <span className="text-xs text-emerald-600">+0.47%</span>
               </div>
               <IntradayChart />
             </div>
+          </div>
 
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
             <div className="rounded-lg border border-zinc-200 bg-white p-4 shadow-sm" data-destination="true">
               <h3 className="text-sm font-semibold mb-2">Sample Portfolio Mix</h3>
               <PortfolioAllocation />
@@ -376,6 +344,43 @@ function MorningstarContent() {
               <h3 className="text-sm font-semibold mb-2">Trading Volume</h3>
               <VolumeChart />
               <p className="text-xs text-zinc-600 mt-2">20-day volume trend</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Market Movers section */}
+      <section className="bg-white border-b border-zinc-200 py-6">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg border border-zinc-200 bg-white p-4 shadow-sm">
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="text-base font-semibold">Market Movers</h2>
+              <div className="flex gap-2">
+                <button className="text-xs px-2 py-1 rounded bg-zinc-100 font-medium" data-destination="true">Gainers</button>
+                <button className="text-xs px-2 py-1 rounded text-zinc-600" data-destination="true">Losers</button>
+                <button className="text-xs px-2 py-1 rounded text-zinc-600" data-destination="true">Active</button>
+              </div>
+            </div>
+            <div className="space-y-2">
+              {marketMovers.map((stock) => (
+                <div key={stock.symbol} className="flex items-center justify-between rounded border border-zinc-200 px-3 py-2" data-destination="true">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-8">
+                      <SparklineChart trend="up" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-semibold">{stock.symbol}</span>
+                        <span className="text-sm">{stock.price}</span>
+                      </div>
+                      <span className="text-xs text-zinc-600">{stock.name}</span>
+                    </div>
+                  </div>
+                  <span className={`text-sm font-semibold ${stock.positive ? 'text-emerald-600' : 'text-red-600'}`}>
+                    {stock.change}
+                  </span>
+                </div>
+              ))}
             </div>
           </div>
         </div>
