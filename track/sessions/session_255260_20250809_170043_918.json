@@ -1,0 +1,129 @@
+{
+  "session_id": "20250809_170043_918",
+  "my_id": 255260,
+  "start_time": "2025-08-09T17:00:43.918372",
+  "end_time": "2025-08-09T17:01:00.216725",
+  "interactions": [
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.103273,
+      "id": 1
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 5.120783,
+      "id": 2
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.613161,
+      "id": 3
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.942543,
+      "id": 4
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 9.247973,
+      "id": 5
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.253114,
+      "id": 6
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.288243,
+      "id": 7
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "FileNewImport JSONDownload JSONShareCopy URLViewStatusAllActiveCompletedSortDue dateStatusDirectionAscDesc",
+      "elementType": "NAV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.168435,
+      "id": 8
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.470599,
+      "id": 9
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.032306,
+      "id": 10
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 14.063158,
+      "id": 11
+    },
+    {
+      "myId": 255260,
+      "elementId": "",
+      "elementContent": "Your tasksApply to YC\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.19666,
+      "id": 12
+    }
+  ],
+  "file_name": "session_255260_20250809_170043_918.json"
+}

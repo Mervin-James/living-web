@@ -1,0 +1,99 @@
+{
+  "session_id": "20250809_164717_946",
+  "my_id": 468109,
+  "start_time": "2025-08-09T16:47:17.946706",
+  "end_time": "2025-08-09T16:47:31.159952",
+  "interactions": [
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Technology+2.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.428631,
+      "id": 1
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Technology",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.864095,
+      "id": 2
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Technology+2.5%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.301568,
+      "id": 3
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Consumer",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.789777,
+      "id": 4
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Technology+2.5%Healthcare+1.8%Finance-0.5%Energy+3.2%Consumer-1.2%Industrial+0.8%Materials-0.3%Utilities+0.5%Real Estate-1.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.925667,
+      "id": 5
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Market SectorsTechnology+2.5%Healthcare+1.8%Finance-0.5%Energy+3.2%Consumer-1.2%Industrial+0.8%Materials-0.3%Utilities+0.5%Real Estate-1.8%Today's sector performance",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.479625,
+      "id": 6
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Today's sector performance",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.826892,
+      "id": 7
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Market SectorsTechnology+2.5%Healthcare+1.8%Finance-0.5%Energy+3.2%Consumer-1.2%Industrial+0.8%Materials-0.3%Utilities+0.5%Real Estate-1.8%Today's sector performance",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.189587,
+      "id": 8
+    },
+    {
+      "myId": 468109,
+      "elementId": "",
+      "elementContent": "Consumer-1.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.608193,
+      "id": 9
+    }
+  ],
+  "file_name": "session_468109_20250809_164717_946.json"
+}

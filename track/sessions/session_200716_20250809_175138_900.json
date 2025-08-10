@@ -1,0 +1,89 @@
+{
+  "session_id": "20250809_175138_900",
+  "my_id": 200716,
+  "start_time": "2025-08-09T17:51:38.907871",
+  "end_time": "2025-08-09T17:51:56.114694",
+  "interactions": [
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.144795,
+      "id": 1
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 8.452576,
+      "id": 2
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.76469,
+      "id": 3
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.850798,
+      "id": 4
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.590445,
+      "id": 5
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.960508,
+      "id": 6
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.451237,
+      "id": 7
+    },
+    {
+      "myId": 200716,
+      "elementId": "",
+      "elementContent": "Copy URL",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 14.25226,
+      "id": 8
+    }
+  ],
+  "file_name": "session_200716_20250809_175138_900.json"
+}

@@ -1,0 +1,379 @@
+{
+  "session_id": "20250809_175412_778",
+  "my_id": 663640,
+  "start_time": "2025-08-09T17:54:12.780216",
+  "end_time": "2025-08-09T17:54:56.648213",
+  "interactions": [
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.466935,
+      "id": 1
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.959089,
+      "id": 2
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.97424,
+      "id": 3
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.406318,
+      "id": 4
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.650244,
+      "id": 5
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "High",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.527959,
+      "id": 6
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHighAdd",
+      "elementType": "FORM",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.052264,
+      "id": 7
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Priority: NoneLowMediumHigh",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.469961,
+      "id": 8
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Low",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.024411,
+      "id": 9
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Medium",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.298146,
+      "id": 10
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.858855,
+      "id": 11
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 18.302037,
+      "id": 12
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.800506,
+      "id": 13
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 21.042203,
+      "id": 14
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 21.732047,
+      "id": 15
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 23.431939,
+      "id": 16
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Your tasksh\u2191\u2193Deleteasdsaa\u2191\u2193Deletejfjaklsjfkljaslksejfklsfejklasjfklsajklfsjklasjefkjsalkjfeslmediumasjekflsjafklasejklfsaejklseafjklafsejf@asejfklsejaklsafjklsejflkjsaklfjsekljklsajfklsjlkesafjes\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.923405,
+      "id": 17
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "\u2193",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 25.652251,
+      "id": 18
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "h\u2191\u2193Delete",
+      "elementType": "LI",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 26.422374,
+      "id": 19
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "\u2191",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 27.252385,
+      "id": 20
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 28.032303,
+      "id": 21
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 29.470041,
+      "id": 22
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 29.499571,
+      "id": 23
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Your tasksh\u2191\u2193Deleteasdsaa\u2191\u2193Deletejfjaklsjfkljaslksejfklsfejklasjfklsajklfsjklasjefkjsalkjfeslmediumasjekflsjafklasejklfsaejklseafjklafsejf@asejfklsejaklsafjklsejflkjsaklfjsekljklsajfklsjlkesafjes\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 31.092364,
+      "id": 24
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 31.959961,
+      "id": 25
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 32.483153,
+      "id": 26
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 33.000419,
+      "id": 27
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 33.320211,
+      "id": 28
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 34.019985,
+      "id": 29
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Status",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 34.610462,
+      "id": 30
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "AscDesc",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 36.190425,
+      "id": 31
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Desc",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 37.418277,
+      "id": 32
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "AllActiveCompleted",
+      "elementType": "SELECT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 38.332322,
+      "id": 33
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 39.028177,
+      "id": 34
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Completed",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 40.262748,
+      "id": 35
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Active",
+      "elementType": "OPTION",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 41.70188,
+      "id": 36
+    },
+    {
+      "myId": 663640,
+      "elementId": "",
+      "elementContent": "Your tasksh\u2191\u2193Deleteasdsaa\u2191\u2193Deletejfjaklsjfkljaslksejfklsfejklasjfklsajklfsjklasjefkjsalkjfeslmediumasjekflsjafklasejklfsaejklseafjklafsejf@asejfklsejaklsafjklsejflkjsaklfjsekljklsajfklsjlkesafjes\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 42.222164,
+      "id": 37
+    }
+  ],
+  "file_name": "session_663640_20250809_175412_778.json"
+}

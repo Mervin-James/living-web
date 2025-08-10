@@ -24,9 +24,9 @@ def main():
     # app_name = "morningstar-landing-clone"
     # app_name = "todo"
     repo_root = Path(__file__).resolve().parent
-    layout_path = repo_root / "demo-app" / "morningstar-landing-clone" / "src" / "app" / "layout.tsx"
+    # layout_path = repo_root / "demo-app" / "morningstar-landing-clone" / "src" / "app" / "layout.tsx"
     # If you want to target the TODO app instead, comment the line above and uncomment below:
-    # layout_path = repo_root / "demo-app" / "todo" / "src" / "components" / "Layout.tsx"
+    layout_path = repo_root / "demo-app" / "todo" / "src" / "components" / "Layout.tsx"
 
     if not layout_path.exists():
         raise FileNotFoundError(f"Layout file not found at {layout_path}")

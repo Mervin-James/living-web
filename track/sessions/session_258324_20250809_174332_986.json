@@ -1,0 +1,69 @@
+{
+  "session_id": "20250809_174332_986",
+  "my_id": 258324,
+  "start_time": "2025-08-09T17:43:32.986128",
+  "end_time": "2025-08-09T17:43:39.516879",
+  "interactions": [
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.141969,
+      "id": 1
+    },
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.265374,
+      "id": 2
+    },
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.745649,
+      "id": 3
+    },
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.194753,
+      "id": 4
+    },
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.577898,
+      "id": 5
+    },
+    {
+      "myId": 258324,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.942853,
+      "id": 6
+    }
+  ],
+  "file_name": "session_258324_20250809_174332_986.json"
+}

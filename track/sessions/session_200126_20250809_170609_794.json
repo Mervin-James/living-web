@@ -1,0 +1,169 @@
+{
+  "session_id": "20250809_170609_794",
+  "my_id": 200126,
+  "start_time": "2025-08-09T17:06:09.794862",
+  "end_time": "2025-08-09T17:08:12.105681",
+  "interactions": [
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 70.080024,
+      "id": 1
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 84.316251,
+      "id": 2
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 89.767158,
+      "id": 3
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 90.684912,
+      "id": 4
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 95.453783,
+      "id": 5
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 100.991361,
+      "id": 6
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 102.51156,
+      "id": 7
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "SortDue dateStatus",
+      "elementType": "LABEL",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 103.451715,
+      "id": 8
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Due dateStatus",
+      "elementType": "SELECT",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 103.470691,
+      "id": 9
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "View",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 104.578069,
+      "id": 10
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 105.129874,
+      "id": 11
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Share",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 106.798876,
+      "id": 12
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 107.656106,
+      "id": 13
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 108.91836,
+      "id": 14
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 108.942652,
+      "id": 15
+    },
+    {
+      "myId": 200126,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 112.271619,
+      "id": 16
+    }
+  ],
+  "file_name": "session_200126_20250809_170609_794.json"
+}

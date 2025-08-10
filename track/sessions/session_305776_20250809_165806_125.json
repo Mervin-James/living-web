@@ -1,0 +1,99 @@
+{
+  "session_id": "20250809_165806_125",
+  "my_id": 305776,
+  "start_time": "2025-08-09T16:58:06.126779",
+  "end_time": "2025-08-09T16:58:27.951833",
+  "interactions": [
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "Your tasksNo items",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.812777,
+      "id": 1
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.210977,
+      "id": 2
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 8.294177,
+      "id": 3
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "",
+      "elementType": "INPUT",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.044684,
+      "id": 4
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "Add",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 12.569945,
+      "id": 5
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "File",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.514212,
+      "id": 6
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "A",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.755219,
+      "id": 7
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "Download JSON",
+      "elementType": "BUTTON",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 15.801839,
+      "id": 8
+    },
+    {
+      "myId": 305776,
+      "elementId": "",
+      "elementContent": "Your tasksApply to YC\u2191\u2193DeleteWin a hackathon\u2191\u2193Delete",
+      "elementType": "MAIN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.184158,
+      "id": 9
+    }
+  ],
+  "file_name": "session_305776_20250809_165806_125.json"
+}

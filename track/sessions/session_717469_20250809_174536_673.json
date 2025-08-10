@@ -1,0 +1,109 @@
+{
+  "session_id": "20250809_174536_673",
+  "my_id": 717469,
+  "start_time": "2025-08-09T17:45:36.673460",
+  "end_time": "2025-08-09T17:45:47.417097",
+  "interactions": [
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "\u25bc",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.496975,
+      "id": 1
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "\u25bc",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.737481,
+      "id": 2
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "Share\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.851106,
+      "id": 3
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "View\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.670377,
+      "id": 4
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "View\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.554948,
+      "id": 5
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "File\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.192467,
+      "id": 6
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "File\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.575464,
+      "id": 7
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "Share\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.087779,
+      "id": 8
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "Share\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.732624,
+      "id": 9
+    },
+    {
+      "myId": 717469,
+      "elementId": "",
+      "elementContent": "Share\u25bc",
+      "elementType": "SUMMARY",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.162645,
+      "id": 10
+    }
+  ],
+  "file_name": "session_717469_20250809_174536_673.json"
+}

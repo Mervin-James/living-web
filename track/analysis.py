@@ -17,6 +17,7 @@ OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openrouter/anthropic/claude-so
 OPENROUTER_REFERER = os.getenv("OPENROUTER_REFERER")  # optional but recommended by OpenRouter
 OPENROUTER_TITLE = os.getenv("OPENROUTER_TITLE")      # optional
 
+from editor import main
 
 def analysis_text_path_for(session_file: Path) -> Path:
     return session_file.parent / (session_file.stem + ".analysis.txt")
@@ -104,13 +105,24 @@ async def analyze_and_write_text(session_file: Path) -> Path:
         )
         out_path = analysis_text_path_for(session_file)
         out_path.write_text(report, encoding="utf-8")
+
+        report_file = Path(f"report.txt")
+        report_file.write_text(report, encoding="utf-8")
         print(f"Wrote analysis to {out_path}")
+
+        main()
+        
         return out_path
     except Exception as e:
         # Write error stub for visibility
         out_path = analysis_text_path_for(session_file)
         out_path.write_text(f"Analysis error: {e}", encoding="utf-8")
+
+        
         print(f"Analysis failed for {session_file.name}: {e}")
         return out_path
+    
+
+
 
 
