@@ -593,7 +593,6 @@ function LayoutShell({ children }: { children: React.ReactNode }) {
       </header>
 
       <main className="flex-1">
-        <MorningstarContent />
         {children}
       </main>
 
