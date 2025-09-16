@@ -1,0 +1,159 @@
+{
+  "session_id": "20250809_182710_586",
+  "my_id": 813508,
+  "start_time": "2025-08-09T18:27:10.586542",
+  "end_time": "2025-08-09T18:27:29.608648",
+  "interactions": [
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.776489,
+      "id": 1
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.918815,
+      "id": 2
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.615287,
+      "id": 3
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.196807,
+      "id": 4
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.452761,
+      "id": 5
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Trade Desk",
+      "elementType": "H4",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.39809,
+      "id": 6
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Trade DeskTTD",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.973078,
+      "id": 7
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "TTD",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.363382,
+      "id": 8
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Energy Transfer",
+      "elementType": "H4",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 12.720867,
+      "id": 9
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Energy TransferETMeetAug 8, 2025+0.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.222052,
+      "id": 10
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Energy TransferETMeetAug 8, 2025+0.8%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.517743,
+      "id": 11
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "Amazon",
+      "elementType": "H4",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.973598,
+      "id": 12
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": "AmazonAMZN",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 15.637014,
+      "id": 13
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.902234,
+      "id": 14
+    },
+    {
+      "myId": 813508,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.517085,
+      "id": 15
+    }
+  ],
+  "file_name": "session_813508_20250809_182710_586.json"
+}

@@ -1,0 +1,89 @@
+{
+  "session_id": "20250809_181258_064",
+  "my_id": 440489,
+  "start_time": "2025-08-09T18:12:58.066002",
+  "end_time": "2025-08-09T18:13:08.048666",
+  "interactions": [
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.1124,
+      "id": 1
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.114317,
+      "id": 2
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.406588,
+      "id": 3
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.196391,
+      "id": 4
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.626486,
+      "id": 5
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.326457,
+      "id": 6
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.157986,
+      "id": 7
+    },
+    {
+      "myId": 440489,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.406684,
+      "id": 8
+    }
+  ],
+  "file_name": "session_440489_20250809_181258_064.json"
+}

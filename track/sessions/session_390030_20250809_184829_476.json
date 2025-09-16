@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_184829_476",
+  "my_id": 390030,
+  "start_time": "2025-08-09T18:48:29.476523",
+  "end_time": "2025-08-09T18:48:38.510980",
+  "interactions": [
+    {
+      "myId": 390030,
+      "elementId": "",
+      "elementContent": "Market Movers",
+      "elementType": "H2",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.823493,
+      "id": 1
+    },
+    {
+      "myId": 390030,
+      "elementId": "",
+      "elementContent": "Market Movers",
+      "elementType": "H2",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.397901,
+      "id": 2
+    },
+    {
+      "myId": 390030,
+      "elementId": "",
+      "elementContent": "Market MoversGainersLosersActive",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.483317,
+      "id": 3
+    }
+  ],
+  "file_name": "session_390030_20250809_184829_476.json"
+}

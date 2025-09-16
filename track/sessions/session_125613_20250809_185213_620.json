@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_185213_620",
+  "my_id": 125613,
+  "start_time": "2025-08-09T18:52:13.620535",
+  "end_time": "2025-08-09T18:52:31.971234",
+  "interactions": [
+    {
+      "myId": 125613,
+      "elementId": "",
+      "elementContent": "NEGG$79.79Newegg Commerce Inc+34.24%",
+      "elementType": "DIV",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 14.580933,
+      "id": 1
+    },
+    {
+      "myId": 125613,
+      "elementId": "",
+      "elementContent": "MENS$45.33Jyong Biotech Ltd+32.47%",
+      "elementType": "DIV",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 15.688128,
+      "id": 2
+    },
+    {
+      "myId": 125613,
+      "elementId": "",
+      "elementContent": "LZ$10.98LegalZoom.com+31.18%",
+      "elementType": "DIV",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 16.31085,
+      "id": 3
+    }
+  ],
+  "file_name": "session_125613_20250809_185213_620.json"
+}

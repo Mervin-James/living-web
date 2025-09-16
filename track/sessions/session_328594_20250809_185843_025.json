@@ -1,0 +1,49 @@
+{
+  "session_id": "20250809_185843_025",
+  "my_id": 328594,
+  "start_time": "2025-08-09T18:58:43.025403",
+  "end_time": "2025-08-09T18:59:24.843096",
+  "interactions": [
+    {
+      "myId": 328594,
+      "elementId": "",
+      "elementContent": "LZ$10.98LegalZoom.com+31.18%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.967445,
+      "id": 1
+    },
+    {
+      "myId": 328594,
+      "elementId": "",
+      "elementContent": "LZ$10.98",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.697601,
+      "id": 2
+    },
+    {
+      "myId": 328594,
+      "elementId": "",
+      "elementContent": "LZ$10.98LegalZoom.com+31.18%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.351936,
+      "id": 3
+    },
+    {
+      "myId": 328594,
+      "elementId": "",
+      "elementContent": "LZ$10.98LegalZoom.com+31.18%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 38.009353,
+      "id": 4
+    }
+  ],
+  "file_name": "session_328594_20250809_185843_025.json"
+}

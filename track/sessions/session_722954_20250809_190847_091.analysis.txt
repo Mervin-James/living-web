@@ -1,0 +1,26 @@
+Analysis error: litellm.APIError: APIError: OpenrouterException - Unable to get json response - Expecting value: line 27 column 1 (char 143), Original Response: 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         

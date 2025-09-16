@@ -1,0 +1,89 @@
+{
+  "session_id": "20250809_175931_165",
+  "my_id": 768748,
+  "start_time": "2025-08-09T17:59:31.167106",
+  "end_time": "2025-08-09T17:59:44.025985",
+  "interactions": [
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.467145,
+      "id": 1
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeat",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.455508,
+      "id": 2
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeat",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.615474,
+      "id": 3
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeatAug 7, 2025+7.3%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.923227,
+      "id": 4
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeatAug 7, 2025+7.3%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.333615,
+      "id": 5
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.071403,
+      "id": 6
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.551124,
+      "id": 7
+    },
+    {
+      "myId": 768748,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.045633,
+      "id": 8
+    }
+  ],
+  "file_name": "session_768748_20250809_175931_165.json"
+}

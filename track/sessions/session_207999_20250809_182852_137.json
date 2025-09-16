@@ -1,0 +1,99 @@
+{
+  "session_id": "20250809_182852_137",
+  "my_id": 207999,
+  "start_time": "2025-08-09T18:28:52.137646",
+  "end_time": "2025-08-09T18:29:00.940781",
+  "interactions": [
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.839131,
+      "id": 1
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Under ArmourUAABeatAug 8, 2025+5.2%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.067495,
+      "id": 2
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Trade Desk",
+      "elementType": "H4",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.733773,
+      "id": 3
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Trade DeskTTDMissAug 8, 2025-3.1%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.147544,
+      "id": 4
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.433166,
+      "id": 5
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Meet",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.73928,
+      "id": 6
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "Meet",
+      "elementType": "SPAN",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.890835,
+      "id": 7
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeatAug 7, 2025+7.3%",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.453466,
+      "id": 8
+    },
+    {
+      "myId": 207999,
+      "elementId": "",
+      "elementContent": "AmazonAMZNBeat",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.018322,
+      "id": 9
+    }
+  ],
+  "file_name": "session_207999_20250809_182852_137.json"
+}

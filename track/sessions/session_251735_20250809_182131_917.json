@@ -1,0 +1,79 @@
+{
+  "session_id": "20250809_182131_917",
+  "my_id": 251735,
+  "start_time": "2025-08-09T18:21:31.917181",
+  "end_time": "2025-08-09T18:21:57.415471",
+  "interactions": [
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.633537,
+      "id": 1
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.382647,
+      "id": 2
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.234404,
+      "id": 3
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.152628,
+      "id": 4
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 16.954789,
+      "id": 5
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.308407,
+      "id": 6
+    },
+    {
+      "myId": 251735,
+      "elementId": "",
+      "elementContent": "Margaret Giles",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.77691,
+      "id": 7
+    }
+  ],
+  "file_name": "session_251735_20250809_182131_917.json"
+}

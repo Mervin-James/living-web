@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_183012_874",
+  "my_id": 669897,
+  "start_time": "2025-08-09T18:30:12.875750",
+  "end_time": "2025-08-09T18:30:22.648443",
+  "interactions": [
+    {
+      "myId": 669897,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.905711,
+      "id": 1
+    },
+    {
+      "myId": 669897,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.696448,
+      "id": 2
+    },
+    {
+      "myId": 669897,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.374704,
+      "id": 3
+    }
+  ],
+  "file_name": "session_669897_20250809_183012_874.json"
+}

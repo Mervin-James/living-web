@@ -1,0 +1,28 @@
+Model: openrouter/anthropic/claude-sonnet-4
+Created: 2025-08-09T18:02:15.256581
+Session: 20250809_180208_351 (user 852354)
+
+# UX Analysis Report
+
+## Overall Intent(s)
+Unable to determine user intent - no interaction events recorded.
+
+## Optimality: Failed
+Session lasted only 0.6 seconds with zero user interactions, indicating immediate abandonment or technical failure.
+
+## Frustration Signals
+• Immediate session abandonment
+• Zero engagement with any page elements
+
+## Key Evidence
+• Session duration: 616ms with no recorded events
+• No clicks, scrolls, or form interactions captured
+• Suggests page load issues or user immediately left
+
+## Recommendations
+• Investigate page load performance and ensure critical content renders within 2-3 seconds
+• Review analytics for similar zero-interaction sessions to identify patterns
+• Ensure above-the-fold content clearly communicates value proposition
+• Check for JavaScript errors that might prevent event tracking
+• Verify page accessibility and mobile responsiveness
+• Consider adding loading indicators for slow-loading elements

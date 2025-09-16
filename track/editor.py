@@ -39,10 +39,10 @@ def build_edit_prompt(report_text: str, original_code: str) -> List[Dict[str, st
         "Rules:\n"
         "- Use: // ... existing code ... to skip unchanged parts.\n"
         "- Include just enough surrounding context to disambiguate.\n"
-        "- Make MINIAL, meaningful layout improvements aligned with the report.\n"
+        "- IMPORTANT!!!: Only make mearningful rearrangement of the layout. DO NOT MODIFY STYLES, CONTENT, OR TAGS. Only rearrange items as needed."
+        "- Make MINIAL, meaningful layout improvements aligned with the report. Prioritize moving elements with data-destination=\"true\"\n"
         "- Do not change file/module structure unless necessary.\n"
         "- Do not print any commentary.\n\n"
-        "- IMPORTANT!!!: Only make ONE mearningful change to the layout. DO NOT ADD CONTENT, FUNCTIONALITY, FEATURES, OR FUNCITONAL CODE. Only rearrange items as needed. ONLY REARRANGE ONE ITEM!"
         f"UX Analysis Report (text):\n{report_text}\n\n"
         f"Current File: Layout.tsx {original_code}"
     )
@@ -89,12 +89,15 @@ def merge_with_morph(instructions: str, initial_code: str, code_edit: str) -> st
 
 async def main():
     report_path = Path("report.txt")
-    target_file = Path("../demo-app/todo/src/components/Layout.tsx")
+    # target_file = Path("../demo-app/todo/src/components/Layout.tsx")
+    target_file = Path("../demo-app/morningstar-landing-clone/src/app/layout.tsx")
 
     if not report_path.exists():
         raise FileNotFoundError(f"Missing report file: {report_path}")
     if not target_file.exists():
         raise FileNotFoundError(f"Missing target file: {target_file}")
+    
+
 
     report_text = read_text_file(report_path)
     original_code = read_text_file(target_file)

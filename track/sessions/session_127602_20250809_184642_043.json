@@ -1,0 +1,59 @@
+{
+  "session_id": "20250809_184642_043",
+  "my_id": 127602,
+  "start_time": "2025-08-09T18:46:42.043372",
+  "end_time": "2025-08-09T18:46:48.590586",
+  "interactions": [
+    {
+      "myId": 127602,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 1.862098,
+      "id": 1
+    },
+    {
+      "myId": 127602,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.50011,
+      "id": 2
+    },
+    {
+      "myId": 127602,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.150935,
+      "id": 3
+    },
+    {
+      "myId": 127602,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.615778,
+      "id": 4
+    },
+    {
+      "myId": 127602,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.826253,
+      "id": 5
+    }
+  ],
+  "file_name": "session_127602_20250809_184642_043.json"
+}

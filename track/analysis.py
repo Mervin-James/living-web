@@ -44,16 +44,12 @@ async def compact_interactions_for_llm(session: Dict, max_events: int = 300) -> 
 def _build_prompts(session_meta: Dict, compact_events: List[Dict]) -> List[Dict]:
     system_prompt = (
         "You are a seasoned UX analyst. From the interaction stream, infer the user's intent(s) and evaluate whether "
-        "their path was optimal, suboptimal, or failed. Identify frustration signals (rage clicks, dead clicks, error "
-        "loops, form struggles) and produce actionable, concrete recommendations to improve the flow. Be concise."
+        "their path was optimal. When a user interracts with an element, say that it needs to be located near the top. Do not propose new features, just layout updates. BE VERY SPECIFIC ABOUT ELEMENTS AND CHANGES YOU PROPOSE"
     )
     user_instructions = (
         "Write a short, human-readable report. Use this structure and keep it tight: \n"
         "- Overall intent(s)\n"
-        "- Optimality: optimal | suboptimal | failed (brief why)\n"
-        "- Frustration signals (bulleted, if any)\n"
-        "- Key evidence (2-5 bullets referencing events by id/type)\n"
-        "- Recommendations (3-7 bullets, concrete UI/UX changes)\n"
+        "- Recommendation - ONE concrete LAYOUT REARRANGEMENT ONLY, without rationale!!!\n"
         "Context follows as JSON. Do not echo the full JSON back."
     )
     context = {
@@ -110,8 +106,8 @@ async def analyze_and_write_text(session_file: Path) -> Path:
         report_file.write_text(report, encoding="utf-8")
         print(f"Wrote analysis to {out_path}")
 
-        main()
-        
+        await main()
+
         return out_path
     except Exception as e:
         # Write error stub for visibility

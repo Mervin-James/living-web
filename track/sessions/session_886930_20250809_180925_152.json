@@ -1,0 +1,19 @@
+{
+  "session_id": "20250809_180925_152",
+  "my_id": 886930,
+  "start_time": "2025-08-09T18:09:25.152773",
+  "end_time": "2025-08-09T18:09:42.400571",
+  "interactions": [
+    {
+      "myId": 886930,
+      "elementId": "recharts-area-_r_v_",
+      "elementContent": null,
+      "elementType": "path",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.34556,
+      "id": 1
+    }
+  ],
+  "file_name": "session_886930_20250809_180925_152.json"
+}

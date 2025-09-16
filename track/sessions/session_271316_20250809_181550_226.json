@@ -1,0 +1,79 @@
+{
+  "session_id": "20250809_181550_226",
+  "my_id": 271316,
+  "start_time": "2025-08-09T18:15:50.226516",
+  "end_time": "2025-08-09T18:15:56.688703",
+  "interactions": [
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.219678,
+      "id": 1
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 0.812327,
+      "id": 2
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.381896,
+      "id": 3
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 2.813879,
+      "id": 4
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 3.321778,
+      "id": 5
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.316033,
+      "id": 6
+    },
+    {
+      "myId": 271316,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.335738,
+      "id": 7
+    }
+  ],
+  "file_name": "session_271316_20250809_181550_226.json"
+}

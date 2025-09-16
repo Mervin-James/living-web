@@ -1,0 +1,79 @@
+{
+  "session_id": "20250809_190029_545",
+  "my_id": 565609,
+  "start_time": "2025-08-09T19:00:29.545816",
+  "end_time": "2025-08-09T19:02:04.358768",
+  "interactions": [
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.210368,
+      "id": 1
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 22.078074,
+      "id": 2
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.639106,
+      "id": 3
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.284509,
+      "id": 4
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 55.631998,
+      "id": 5
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 56.124661,
+      "id": 6
+    },
+    {
+      "myId": 565609,
+      "elementId": "",
+      "elementContent": "Also, four top ETFs and how this speculative asset is faring against another popular hedge.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 56.772867,
+      "id": 7
+    }
+  ],
+  "file_name": "session_565609_20250809_190029_545.json"
+}

@@ -1,0 +1,59 @@
+{
+  "session_id": "20250809_183232_902",
+  "my_id": 270273,
+  "start_time": "2025-08-09T18:32:32.902124",
+  "end_time": "2025-08-09T18:33:07.058456",
+  "interactions": [
+    {
+      "myId": 270273,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 14.100426,
+      "id": 1
+    },
+    {
+      "myId": 270273,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.387298,
+      "id": 2
+    },
+    {
+      "myId": 270273,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.586769,
+      "id": 3
+    },
+    {
+      "myId": 270273,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 23.891586,
+      "id": 4
+    },
+    {
+      "myId": 270273,
+      "elementId": "",
+      "elementContent": "Margaret Giles breaks down the latest economic data and what it means for investors.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 24.892099,
+      "id": 5
+    }
+  ],
+  "file_name": "session_270273_20250809_183232_902.json"
+}

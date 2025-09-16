@@ -1,109 +1,48 @@
-
-import { useRef } from 'react'
-import TodoForm from './TodoForm'
-import TodoList from './TodoList'
-import type { AppData, ViewState, TodoItem } from '../types'
-
-interface LayoutProps {
-  title: string
-  items: TodoItem[]
-  onNew: () => void
-  onImport: (data: AppData) => void
-  onExport: () => void
-  onShare: () => void
-  view: ViewState
-  onChangeView: (delta: Partial<ViewState>) => void
-  onAdd: (item: TodoItem) => void
-  onToggle: (id: string) => void
-  onDelete: (id: string) => void
-  onMoveUp: (id: string) => void
-  onMoveDown: (id: string) => void
-}
-
-export default function Layout({ title, items, onNew, onImport, onExport, onShare, view, onChangeView, onAdd, onToggle, onDelete, onMoveUp, onMoveDown }: LayoutProps) {
-  const fileRef = useRef<HTMLInputElement | null>(null)
-
-  function triggerImport() {
-    fileRef.current?.click()
-  }
-
-  async function handleFileChange(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0]
-    if (!file) return
-    try {
-      const text = await file.text()
-      const data = JSON.parse(text) as AppData
-      onImport(data)
-    } catch {
-      alert('Invalid JSON')
-    } finally {
-      e.target.value = ''
-    }
-  }
-
-  return (
-      <div className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
-      <header className="sticky top-0 z-10 border-b bg-white/80 backdrop-blur">
-        <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between">
-          <div className="font-semibold tracking-tight">{title}</div>
-          <nav className="flex items-center gap-4 text-sm">
-            <details className="relative group">
-              <summary className="list-none cursor-pointer select-none px-2 py-1 rounded hover:bg-gray-100">Share</summary>
-              <div className="absolute right-0 mt-2 w-56 rounded-md border bg-white shadow-lg p-2 space-y-1">
-                <button onClick={onShare} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Copy URL</button>
-              </div>
-            </details>
-            <details className="relative group">
-              <summary className="list-none cursor-pointer select-none px-2 py-1 rounded hover:bg-gray-100">View</summary>
-              <div className="absolute right-0 mt-2 w-72 rounded-md border bg-white shadow-lg p-3 space-y-3">
-                <label className="flex items-center justify-between gap-2 text-gray-700">
-                  <span>Status</span>
-                  <select
-                    className="border rounded px-2 py-1 text-sm"
-                    value={view.statusFilter}
-                    onChange={(e) => onChangeView({ statusFilter: e.target.value as ViewState['statusFilter'] })}
-                  >
-                    <option value="all">All</option>
-                    <option value="active">Active</option>
-                    <option value="completed">Completed</option>
-                  </select>
-                </label>
-                <label className="flex items-center justify-between gap-2 text-gray-700">
-                  <span>Sort</span>
-                  <select
-                    className="border rounded px-2 py-1 text-sm"
-                    data-destination="true"
-                    value={view.sortKey}
-                    onChange={(e) => onChangeView({ sortKey: e.target.value as ViewState['sortKey'] })}
-                  >
-                    <option value="dueDate">Due date</option>
-                    <option value="status">Status</option>
-                  </select>
-                </label>
-                <label className="flex items-center justify-between gap-2 text-gray-700">
-                  <span>Direction</span>
-                  <select
-                    className="border rounded px-2 py-1 text-sm"
-                    data-destination="true"
-                    value={view.sortDirection}
-                    onChange={(e) => onChangeView({ sortDirection: e.target.value as ViewState['sortDirection'] })}
-                  >
-                    <option value="asc">Asc</option>
-                    <option value="desc">Desc</option>
-                  </select>
-                </label>
-              </div>
-            </details>
-            <details className="relative group">
-              <summary className="list-none cursor-pointer select-none px-2 py-1 rounded hover:bg-gray-100">File</summary>
-              <div className="absolute right-0 mt-2 w-56 rounded-md border bg-white shadow-lg p-2 space-y-1">
-                <button onClick={onNew} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">New</button>
-                <button onClick={triggerImport} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Import JSON</button>
-                <button onClick={onExport} className="w-full text-left px-2 py-1 rounded hover:bg-gray-100" data-destination="true">Download JSON</button>
-              </div>
-            </details>
-          </nav>
-          <input ref={fileRef} onChange={handleFileChange} type="file" accept="application/json" className="hidden" />
-        </div>
-      </header>
+```tsx
+<edit_file>
+<path>Layout.tsx</path>
+<content>
 // ... existing code ...
+
+      {/* Featured Articles */}
+      <section className="bg-[#f9f9f8] py-10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-bold">Featured</h2>
+            <a href="#" className="text-[#be3c47] text-sm font-medium" data-destination="true">View All Articles ›</a>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featuredArticles.map((article, i) => (
+              <article key={i} className="group rounded-lg border border-zinc-200 bg-white overflow-hidden shadow-sm hover:shadow-md transition-shadow" data-destination="true">
+                <div className="aspect-[16/9] bg-gradient-to-br from-zinc-200 to-zinc-300 relative">
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <Activity className="w-12 h-12 text-zinc-400" />
+                  </div>
+                  {i === 0 && (
+                    <div className="absolute top-2 left-2 bg-[#be3c47] text-white text-xs px-2 py-1 rounded">
+                      Berkshire
+                    </div>
+                  )}
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-base mb-2 group-hover:text-[#be3c47] transition-colors">
+                    {article.title}
+                  </h3>
+                  {i === 1 && (
+                    <p className="text-sm text-zinc-600 mb-2">Also, four top ETFs and how this speculative asset is faring against another popular hedge.</p>
+                  )}
+                  {i !== 1 && (
+                    <p className="text-sm text-zinc-600 mb-3">{article.description}</p>
+                  )}
+                  <p className="text-xs text-zinc-500">{article.author}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+// ... existing code ...
+</content>
+</edit_file>
+```

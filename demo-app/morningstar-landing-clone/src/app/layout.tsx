@@ -245,9 +245,9 @@ function MorningstarContent() {
   ];
 
   const marketMovers = [
+    { name: "LegalZoom.com", symbol: "LZ", price: "$10.98", change: "+31.18%", positive: true },
     { name: "Newegg Commerce Inc", symbol: "NEGG", price: "$79.79", change: "+34.24%", positive: true },
     { name: "Jyong Biotech Ltd", symbol: "MENS", price: "$45.33", change: "+32.47%", positive: true },
-    { name: "LegalZoom.com", symbol: "LZ", price: "$10.98", change: "+31.18%", positive: true },
     { name: "Astrana Health", symbol: "ASTH", price: "$28.08", change: "+30.85%", positive: true },
     { name: "GigaCloud Technology", symbol: "GCT", price: "$28.91", change: "+30.52%", positive: true },
   ];
@@ -275,6 +275,31 @@ function MorningstarContent() {
 
   return (
     <div>
+      {/* LegalZoom featured ticker */}
+      <section className="border-b border-zinc-200 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4" data-destination="true">
+              <div className="w-16 h-8">
+                <SparklineChart trend="up" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="text-lg font-bold">LZ</span>
+                  <span className="text-lg font-semibold">$10.98</span>
+                  <span className="text-lg font-semibold text-emerald-600 flex items-center gap-0.5">
+                    <ArrowUpRight className="w-4 h-4" />
+                    +31.18%
+                  </span>
+                </div>
+                <span className="text-sm text-zinc-600">LegalZoom.com</span>
+              </div>
+            </div>
+            <a className="text-[#be3c47] text-sm font-medium" href="#" data-destination="true">View Details ›</a>
+          </div>
+        </div>
+      </section>
+
       {/* Markets ticker strip */}
       <section id="markets" className="border-b border-zinc-200 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2">
@@ -450,7 +475,12 @@ function MorningstarContent() {
                   <h3 className="font-bold text-base mb-2 group-hover:text-[#be3c47] transition-colors">
                     {article.title}
                   </h3>
-                  <p className="text-sm text-zinc-600 mb-3">{article.description}</p>
+                  {i === 1 && (
+                    <p className="text-sm text-zinc-600 mb-2">Also, four top ETFs and how this speculative asset is faring against another popular hedge.</p>
+                  )}
+                  {i !== 1 && (
+                    <p className="text-sm text-zinc-600 mb-3">{article.description}</p>
+                  )}
                   <p className="text-xs text-zinc-500">{article.author}</p>
                 </div>
               </article>

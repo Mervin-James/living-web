@@ -1,0 +1,11 @@
+Model: openrouter/anthropic/claude-sonnet-4
+Created: 2025-08-09T18:47:39.431088
+Session: 20250809_184729_449 (user 557431)
+
+## UX Analysis Report
+
+**Overall Intent(s):**
+Unable to determine user intent - no interaction events recorded in this 6-second session. The user may have landed on the page but did not engage with any elements before leaving.
+
+**Recommendation:**
+Move the primary call-to-action button or main navigation menu to the very top of the page (above the fold) to capture user attention immediately upon page load and encourage engagement before users abandon the session.

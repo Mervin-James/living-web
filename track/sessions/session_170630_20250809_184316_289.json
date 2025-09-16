@@ -1,0 +1,39 @@
+{
+  "session_id": "20250809_184316_289",
+  "my_id": 170630,
+  "start_time": "2025-08-09T18:43:16.289446",
+  "end_time": "2025-08-09T18:43:25.906273",
+  "interactions": [
+    {
+      "myId": 170630,
+      "elementId": "",
+      "elementContent": "Plus, which stocks Berkshire Hathaway might've bought and sold last quarter.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 4.311084,
+      "id": 1
+    },
+    {
+      "myId": 170630,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.124934,
+      "id": 2
+    },
+    {
+      "myId": 170630,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 7.549197,
+      "id": 3
+    }
+  ],
+  "file_name": "session_170630_20250809_184316_289.json"
+}

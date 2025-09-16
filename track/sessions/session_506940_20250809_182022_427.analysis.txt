@@ -1,0 +1,14 @@
+Model: openrouter/anthropic/claude-sonnet-4
+Created: 2025-08-09T18:20:27.710465
+Session: 20250809_182022_427 (user 506940)
+
+# UX Analysis Report
+
+## Overall Intent(s)
+Unable to determine user intent - no interaction events recorded in this session. The session lasted only 0.28 seconds with no user actions captured.
+
+## Recommendations
+- **No layout recommendations possible** - Without interaction data, there are no specific elements or user behaviors to analyze for layout optimization
+- **Session tracking verification needed** - Ensure event tracking is properly configured to capture user interactions for meaningful UX analysis
+
+*Note: This session appears to be either a technical issue, bot traffic, or an immediate bounce. Future analysis requires actual user interaction data to provide actionable layout recommendations.*

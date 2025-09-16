@@ -1,0 +1,17 @@
+Model: openrouter/anthropic/claude-sonnet-4
+Created: 2025-08-09T18:14:52.368593
+Session: 20250809_181445_178 (user 240007)
+
+# UX Analysis Report
+
+## Overall Intent(s)
+Unable to determine user intent - no interaction events recorded in this session. The session lasted only 33 milliseconds, suggesting either a technical issue, immediate bounce, or data collection problem.
+
+## Recommendations
+- **Move critical navigation elements higher** - Ensure primary navigation is immediately visible above the fold to capture users before they bounce
+- **Relocate key call-to-action buttons** - Position primary CTAs in the top 25% of the viewport to increase engagement likelihood
+- **Elevate search functionality** - If applicable, move search bar to header area for immediate accessibility
+- **Reposition value proposition content** - Place core messaging and benefits prominently at the top of the page
+- **Optimize loading indicators** - Ensure loading states and progress indicators are positioned centrally and prominently to retain users during page loads
+
+*Note: Additional interaction data needed to provide more specific layout recommendations.*

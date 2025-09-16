@@ -1,0 +1,69 @@
+{
+  "session_id": "20250809_185123_634",
+  "my_id": 402603,
+  "start_time": "2025-08-09T18:51:23.634977",
+  "end_time": "2025-08-09T18:51:35.281314",
+  "interactions": [
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F FilingPlus, which stocks Berkshire Hathaway might've bought and sold last quarter.Susan Dziubinski",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.20765,
+      "id": 1
+    },
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "Also, four top ETFs and how this speculative asset is faring against another popular hedge.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.601561,
+      "id": 2
+    },
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "ARTICLE",
+      "isDestination": "true",
+      "interactionType": "click",
+      "serverTimestamp": 7.565291,
+      "id": 3
+    },
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.18385,
+      "id": 4
+    },
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.519873,
+      "id": 5
+    },
+    {
+      "myId": 402603,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.770609,
+      "id": 6
+    }
+  ],
+  "file_name": "session_402603_20250809_185123_634.json"
+}

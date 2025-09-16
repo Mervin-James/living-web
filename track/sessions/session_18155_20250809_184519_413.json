@@ -1,0 +1,69 @@
+{
+  "session_id": "20250809_184519_413",
+  "my_id": 18155,
+  "start_time": "2025-08-09T18:45:19.414288",
+  "end_time": "2025-08-09T18:45:32.324718",
+  "interactions": [
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "PortfolioKnow what you own and what puts you at risk.Understand your portfolio holdings from all angles and get personalized notifications with Morningstar Investor.Get 7 Days FreeLearn MoreYour Portfolio PerformanceTotal Value$125,430Today's Gain+$1,234 (0.99%)",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.317879,
+      "id": 1
+    },
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "2 Warren Buffett Stocks to Buy Before Berkshire Hathaway's 13F Filing",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 6.774104,
+      "id": 2
+    },
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "Investors Are Seeking Safety in Gold ETFs. Is It Working?Also, four top ETFs and how this speculative asset is faring against another popular hedge.Bryan Armour, CFA",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.202643,
+      "id": 3
+    },
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "Margaret Giles breaks down the latest economic data and what it means for investors.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 9.47299,
+      "id": 4
+    },
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators SayMargaret Giles breaks down the latest economic data and what it means for investors.Margaret Giles",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.77904,
+      "id": 5
+    },
+    {
+      "myId": 18155,
+      "elementId": "",
+      "elementContent": "Margaret Giles breaks down the latest economic data and what it means for investors.",
+      "elementType": "P",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 11.356211,
+      "id": 6
+    }
+  ],
+  "file_name": "session_18155_20250809_184519_413.json"
+}

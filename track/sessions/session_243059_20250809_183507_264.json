@@ -1,0 +1,49 @@
+{
+  "session_id": "20250809_183507_264",
+  "my_id": 243059,
+  "start_time": "2025-08-09T18:35:07.265769",
+  "end_time": "2025-08-09T18:35:33.863775",
+  "interactions": [
+    {
+      "myId": 243059,
+      "elementId": "",
+      "elementContent": "US Market BarometerMarkets \u203aUpdated: Aug 8, 10:16 PM+0.68%Market SectorsTechnology+2.5%Healthcare+1.8%Finance-0.5%Energy+3.2%Consumer-1.2%Industrial+0.8%Materials-0.3%Utilities+0.5%Real Estate-1.8%Today's sector performanceMarket MoversGainersLosersActiveNEGG$79.79Newegg Commerce Inc+34.24%MENS$45.33Jyong Biotech Ltd+32.47%LZ$10.98LegalZoom.com+31.18%ASTH$28.08Astrana Health+30.85%GCT$28.91GigaCloud Technology+30.52%DJIA - Intraday+0.47%9:3011:0012:302:003:30Sample Portfolio MixUS Stocks 45%Int'l Stocks 20%Bonds 25%Cash 10%Trading Volume20-day volume trend",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 5.839525,
+      "id": 1
+    },
+    {
+      "myId": 243059,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 13.38419,
+      "id": 2
+    },
+    {
+      "myId": 243059,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.055542,
+      "id": 3
+    },
+    {
+      "myId": 243059,
+      "elementId": "",
+      "elementContent": "How Healthy Is the US Economy? Here's What the Top Economic Indicators Say",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.940055,
+      "id": 4
+    }
+  ],
+  "file_name": "session_243059_20250809_183507_264.json"
+}

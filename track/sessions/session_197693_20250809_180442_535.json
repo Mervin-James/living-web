@@ -1,0 +1,109 @@
+{
+  "session_id": "20250809_180442_535",
+  "my_id": 197693,
+  "start_time": "2025-08-09T18:04:42.536212",
+  "end_time": "2025-08-09T18:05:05.661894",
+  "interactions": [
+    {
+      "myId": 197693,
+      "elementId": "funds",
+      "elementContent": "FundsView All \u203aTop-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 8.718316,
+      "id": 1
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.202249,
+      "id": 2
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 10.421639,
+      "id": 3
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond Funds",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.506478,
+      "id": 4
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond Funds",
+      "elementType": "H3",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 17.661396,
+      "id": 5
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 18.462291,
+      "id": 6
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": "Top-Performing Intermediate Core Bond FundsFunds from JPMorgan, Fidelity leading.",
+      "elementType": "DIV",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.360314,
+      "id": 7
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 19.808273,
+      "id": 8
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 20.887023,
+      "id": 9
+    },
+    {
+      "myId": 197693,
+      "elementId": "",
+      "elementContent": null,
+      "elementType": "svg",
+      "isDestination": "false",
+      "interactionType": "click",
+      "serverTimestamp": 21.318603,
+      "id": 10
+    }
+  ],
+  "file_name": "session_197693_20250809_180442_535.json"
+}
